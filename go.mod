@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/MelanieBrg/melanie_bregou.github.io
 
 go 1.19
 

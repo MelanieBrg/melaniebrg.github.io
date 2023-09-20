@@ -14,6 +14,9 @@ author:
 math: true
 ---
 
+As a first assigment of Human Computer Interface, we had to create a Blog to showcase the work we will do during our master. I created my website using Hugo, a fast and modern static site generator. 
+
+
 
 - blog `author.yaml` 
 

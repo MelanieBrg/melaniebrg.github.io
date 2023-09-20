@@ -1,72 +1,70 @@
 ---
-title: "শর্টকোডের  নমুনা"
+title: "Shortcode"
 date: 2020-06-08T08:06:25+06:00
 description: Shortcodes sample
 menu:
   sidebar:
-    name: শর্টকোডের  নমুনা
+    name: shortcode
     identifier: shortcodes
     weight: 40
+
+draft: True
 ---
 
-এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
 
-- ডিফল্ট হিরো ইমেজ।
-- বিভিন্ন শর্টকোড।
 
-## এলার্ট
+## test
 
-এই থিমের মধ্যে এই সকল এলার্ট রয়েছেঃ
-
+test
 {{< alert type="success" >}}
-এটা `type="success"` দিয়ে নমুনা এলার্ট।
+ `type="success"` 
 {{< /alert >}}
 
 {{< alert type="danger" >}}
-এটা `type="danger"` দিয়ে নমুনা এলার্ট।
+test `type="danger"` test
 {{< /alert >}}
 
 {{< alert type="warning" >}}
-এটা `type="warning"` দিয়ে নমুনা এলার্ট।
+t `type="warning"` 
 {{< /alert >}}
 
 {{< alert type="info" >}}
-এটা `type="info"` দিয়ে নমুনা এলার্ট।
+tes `type="info"` 
 {{< /alert >}}
 
 {{< alert type="dark" >}}
-এটা `type="dark"` দিয়ে নমুনা এলার্ট।
+t `type="dark"` t
 {{< /alert >}}
 
 {{< alert type="primary" >}}
-এটা `type="primary"` দিয়ে নমুনা এলার্ট।
+t `type="primary"` t
 {{< /alert >}}
 
 {{< alert type="secondary" >}}
-এটা `type="secondary"` দিয়ে নমুনা এলার্ট।
+t `type="secondary"` t
 {{< /alert >}}
 
-## ছবি
+## yes
 
-#### কোন ধরনের attribute ছাড়া ছবির একটি নমুনা। 
+#### tset
 
 {{< img src="/posts/shortcodes/boat.jpg" title="A boat at the sea" >}}
 
 {{< vs 3 >}}
 
-#### `height` এবং `width` attribute সহ ছবির একটি নমুনা।
+#### `height` and `width` attribute yes
 
 {{< img src="/posts/shortcodes/boat.jpg" height="400" width="600" title="A boat at the sea" >}}
 
 {{< vs 3 >}}
 
-#### `height` এবং `width` attribute সহ মাঝখানে স্তাপিত ছবির একটি নমুনা।
+#### `height` এবং `width` attribute blabla
 
 {{< img src="/posts/shortcodes/boat.jpg" height="400" width="600" align="center" title="A boat at the sea" >}}
 
 {{< vs 3 >}}
 
-#### `float` attribute সহ ছবির একটি নমুনা।
+#### `float` attribute test
 
 {{< img src="/posts/shortcodes/boat.jpg" height="200" width="500" float="right" title="A boat at the sea" >}}
 
@@ -74,52 +72,48 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed
 
 Fusce vulputate dolor augue, ut porta sapien fringilla nec. Vivamus commodo erat felis, a sodales lectus finibus nec. In a pulvinar orci. Maecenas suscipit eget lorem non pretium. Nulla aliquam a augue nec blandit. Curabitur ac urna iaculis, ornare ligula nec, placerat nulla. Maecenas aliquam nisi vitae tempus vulputate.
 
-## বিভাজন
+## test
 
-এই থিম আপনার পেইজকে  যত খুশি ভাগে ভাগ করা সমর্থন করে।
-
-#### দুই কলামে ভাগ করা
+testtt
+#### testtttt
 
 {{< split 6 6>}}
 
-##### বামের কলাম
+##### testttttt
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.
 
 ---
 
-##### ডানের কলাম
+##### yes
 
 Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.
 
 {{< /split >}}
 
-#### তিন কলামে ভাগ করা
+#### no
 
 {{< split 4 4 4 >}}
 
-##### বামের কলাম
+##### yes
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.
 
 ---
 
-##### মাঝের কলাম
-
+##### no
 Aenean dignissim dictum ex. Donec a nunc vel nibh placerat interdum. 
 
 ---
 
-##### ডানের কলাম
+##### test
 
 Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.
 
 {{< /split >}}
 
-## উলম্ব জায়গা
+## final test
 
-দুই লাইনের মাঝে উলম্ব জায়গা দিতে পারেন।
-
-এটি প্রথম লাইন
-{{< vs 4>}}
-এটি দ্বিতীয় লাইন। প্রথম লাইনের সাথে `4rem` উলম্বভাবে বাব্যধান থাকার কথা।
+test
+test{{< vs 4>}}
+test `4rem` test

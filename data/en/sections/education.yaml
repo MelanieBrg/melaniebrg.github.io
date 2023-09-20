@@ -74,15 +74,15 @@ degrees:
   #  achieved: 5
   #  outOf: 5
   
-- name: Baccalaureate
+- name: Baccalaureate with highest honors
   icon: fa-school
   timeframe: 2019
   institution:
     name: Richelieu High School
     url: "#"
   grade: #(optional)
-  #  scale: GPA
-    achieved: with highest honors
+  #  scale: With highest honors
+  #  achieved: 
   #  outOf: 5
   extracurricularActivities: #(optional)
   - Tennis team, gold medal at France championship

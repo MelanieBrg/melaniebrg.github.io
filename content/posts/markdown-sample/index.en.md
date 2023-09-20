@@ -1,10 +1,10 @@
 ---
-title: "Markdown এর নমুনা"
+title: "Markdown test"
 date: 2020-06-08T08:06:25+06:00
 description: Markdown rendering samples
 menu:
   sidebar:
-    name: Markdown এর নমুনা
+    name: Markdown test
     identifier: markdown
     weight: 30
 author:
@@ -13,13 +13,7 @@ author:
 math: true
 ---
 
-এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
-
-- একজন ভিন্ন পোস্ট লেখক।
-- সূচীপত্র।
-- Markdown কন্টেন্ট রেন্ডারিং।
-- গণিত রেন্ডারিং।
-- ইমোজি রেন্ডারিং।
+test
 
 ---
 # Markdown Syntax Rendering

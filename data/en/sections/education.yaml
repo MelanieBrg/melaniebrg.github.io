@@ -10,81 +10,79 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Dual master's degree in Mixed-Reality and Artificial Intelligence
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2023-2024
   institution:
-    name: ABC University of Technology
+    name: Institut Polytechnique de Paris
     url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+  #grade: #(optional)
+  #  scale: CGPA
+  #  achieved: 3.6
+  #  outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #  url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+  #  url: "#"
+  #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #  url: "#"
+- name: Engineering degree specialised in Computer science and High Tech Imaging
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2021-2024
   institution:
-    name: University of XYZ
+    name: Télécom SudParis
     url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+  #grade: #(optional)
+  #  scale: CGPA
+  #  achieved: 3.5
+  #  outOf: 4
   takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
+  #  # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #  showGrades: true
+  #  collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+    - name: Computer vision, Computer Graphics, Deep learning, Machine learning
+  #    achieved: 3.75
+  #    outOf: 4
+  #  - name: Network Security
+  #    achieved: 3.80
+  #    outOf: 4
+  #  - name: Operating System
+  #    achieved: 3.5
+  #    outOf: 4
+  #  - name: Artificial Intelligent
+  #    achieved: 3.75
+  #    outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #  url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+  #  url: "#"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+  - Corporate Relation Officer at Art Club
+  - Board member of the Photography club
+
+- name: Preparatory class
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2019-2021
   institution:
-    name: MST College of Science
+    name: Saint Louis 
+    url: "#"
+  #grade: #(optional)
+  #  scale: GPA
+  #  achieved: 5
+  #  outOf: 5
+  
+- name: Baccalaureate
+  icon: fa-school
+  timeframe: 2019
+  institution:
+    name: Richelieu High School
     url: "#"
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
+  #  scale: GPA
+    achieved: with highest honors
+  #  outOf: 5
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - Tennis team, gold medal at France championship

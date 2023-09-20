@@ -1,7 +1,7 @@
 ---
-title: "Blog Setup"
+title: "Introduction"
 date: 2020-06-08T08:06:25+06:00
-description: Introduction to my blog
+description: Welcome to my blog !
 menu:
   sidebar:
     name: Introduction
@@ -12,13 +12,3 @@ categories: ["blog"]
 
 ---
 
-
-- blog `author.yaml` 
-
-- Hugo installation
-
-I downloaded a hugo theme 
-https://themes.gohugo.io
-
-
-- deploy

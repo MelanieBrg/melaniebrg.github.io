@@ -1,5 +1,5 @@
 ---
-title: Go title
+title: Go Notes
 menu:
   notes:
     name: Go

@@ -1,13 +1,13 @@
 ---
 title: "Blog Setup"
 date: 2020-06-08T08:06:25+06:00
-description: Introduction to Sample Post
+description: Introduction to my blog
 menu:
   sidebar:
     name: Introduction
-    identifier: test2
+    identifier: intro
     weight: 10
-tags: ["HCI", "Blog"]
+tags: ["Introduction", "Blog"]
 categories: ["blog"]
 
 ---

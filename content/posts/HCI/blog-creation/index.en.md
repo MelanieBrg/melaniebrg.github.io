@@ -1,46 +1,45 @@
 ---
-title: "Blog Set Up"
+title: "Creating a Portfolio Website with Hugo and Deploying on GitHub Pages"
 date: 2020-06-08T08:06:25+06:00
 description: Step by step tutorial to set up this website
 menu:
   sidebar:
-    name: Blog Set up
+    name: Portfolio Set up
     identifier: blog
     parent: hci
-    weight: 30
+    weight: 10
 author:
   name: Mélanie Brégou
   image: /images/author/me.png
 math: true
 ---
 
-As a first assigment of Human Computer Interface class, we had to create a Blog to showcase the work we will do during our master. I created my website using **Hugo**, a fast and modern static site generator. 
+As part of my Human-Computer Interface class, I was tasked with creating a blog to showcase my work during my master's program. I opted to build my website using Hugo, a fast and modern static site generator. In this guide, I will walk you through the steps to set up your own portfolio website using Hugo and deploy it on GitHub Pages.
 
 Here are the different steps to set up this portfolio :
 
 ##### Installation on MacOs
 
-- Open a terminal and type the command `brew install hugo`
-- Go the website [Hugo Themes](https://themes.gohugo.io)
-- Choose Toha theme and click on the [Github repository](https://github.com/hugo-toha/toha)
-- Fork the repository and change the repository name to [your github username].github.io
-- Clone the repository 
+- Open a terminal and execute the following command to install Hugo using Homebrew: `brew install hugo`
+- Visit the [Hugo Themes](https://themes.gohugo.io) website and choose the Toha theme. Then, access the [Github repository](https://github.com/hugo-toha/toha).
+- Fork the repository and rename it to [your GitHub username].github.io
+- Clone the repository to your local machine: `git clone https://github.com/[your GitHub username]/[your GitHub username].github.io.git`
 
 
 ##### Website personalization
-- Once it is cloned open the project in Visual Studio Code
-- Modify the **config.yaml** file and set baseURL parameter to https://[your github username].github.io and choose the languages you want to use for the website
-
-- Adapt the template to your needs such as **/data** yaml files for the portfolio page and **/content/posts** for the blog articles.
+- Once you have cloned the repository, open the project in Visual Studio Code or your preferred text editor.
+- Modify the **config.yaml** file and set `baseURL = https://[your github username].github.io`. Choose the languages you want to use for the website
+- Customize the template to suit your needs. You can use YAML files in the **/data** directory for the portfolio page and create blog articles in the **/content/posts** .
+- Visualize your website locally with the following command `hugo server -D`
 
 
 ##### Deployment in Github Pages
-- Make sure your repository name is [your github username].github.io
-- Create a gh-pages branch typing the command `git checkout -b gh-pages` 
-- Push the source branch into Github `git push gh-pages gh-pages`
-- Check if the template provide a workflow in **.github/workflows/deploy-site.yaml** 
+- Ensure that your repository name is [your GitHub username].github.io
+- Create a **gh-pages** branch typing the following command : `git checkout -b gh-pages` 
+- Push the **gh-pages** branch to Github : `git push origin gh-pages`
+- Check if the template provides a workflow in **.github/workflows/deploy-site.yaml** for automated deployments using GitHub Actions.
 - Go back to the main branch and push all your changes
-- Now your website is accessible on the url https://[your github username].github.io
+- Your portfolio website is now accessible at https://[your github username].github.io
 
 
 

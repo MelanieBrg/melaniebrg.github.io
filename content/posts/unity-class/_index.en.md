@@ -3,6 +3,6 @@ title: Unity
 menu:
   sidebar:
     name: Unity
-    identifier: unity
+    identifier: unity-class
     weight: 20
 ---

@@ -9,11 +9,16 @@ section:
   hideTitle: true
 
 # Your achievements achievements
-achievements:
-#- title: Best Presenter
+#achievements:
+#- title: Awarded project at national French telecom headquarters
 #  image: /images/sections/achievements/presenter.jpg
 #  summary: Best presenter in the 2020 XYZ conference.
 #- title: Champion
 #  image: /images/sections/achievements/sport.jpg
 #  summary: Champion in cycling inter-city cycling championship 2020.
 
+#- title: Awarded "GATE" project at national French telecom headquarters
+
+#- title: First prize at hackathon D4GEN 2023
+
+#- title: Gold medal at national French championship UNSS 2019 in team

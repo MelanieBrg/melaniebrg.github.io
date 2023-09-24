@@ -73,6 +73,12 @@ degrees:
   #  scale: GPA
   #  achieved: 5
   #  outOf: 5
+  takenCourses: #(optional)
+  #  # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Intensive preparation in Mathematics, Physics, Computer Science, English and Philosophy for the competitive exams required to enter french "Grandes Ecoles"
   
 - name: Baccalaureate with highest honors
   icon: fa-school

@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-date: 2020-06-08T08:06:25+06:00
+date: 2023-09-24
 description: Welcome to my blog !
 menu:
   sidebar:
@@ -12,3 +12,8 @@ categories: ["blog"]
 
 ---
 
+Welcome to the blog section of my portfolio website, where I present some of my work, projects, and experiments in:
+
+- HCI : Human-Computer Interface
+- CG : Computer Graphics 
+- DL : Deep learning

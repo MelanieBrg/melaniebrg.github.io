@@ -7,6 +7,7 @@ menu:
     name: Introduction
     identifier: intro
     weight: 10
+hero: space.jpg
 tags: ["Introduction", "Blog"]
 categories: ["blog"]
 

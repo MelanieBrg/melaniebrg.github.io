@@ -16,14 +16,16 @@ math: true
 ---
 
 ### Introduction
-After a 6-hour lecture introducing Human computer Interface, our first homework was to find objects illustrating some concepts in our real life.
+After a 6-hour lecture introducing Human-Computer Interaction (HCI), our first homework was to find real-life objects that exemplify the concept of affordances in HCI.
 
 ### Affordances
 
-def affordance 
+###### Definition
 
-ex : one good affordance
-ex : one bad affordance 
-how could i fix it ?
+Before we delve into real-life examples, let's define what an affordance is in the context of HCI. Affordance refers to the inherent usability or functionality of an object, interface, or system. It's a concept that suggests what actions can be performed with an object and how those actions can be intuitively understood by users. 
+
+###### Good Affordance Example: The Guitar Stand
+
+
 
 ### Gestalt Laws

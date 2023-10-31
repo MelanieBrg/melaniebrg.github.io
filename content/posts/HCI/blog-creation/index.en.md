@@ -8,6 +8,7 @@ menu:
     identifier: blog
     parent: hci
     weight: 10
+hero: blog.png
 author:
   name: Mélanie Brégou
   image: /images/author/me.png

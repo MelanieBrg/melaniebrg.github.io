@@ -23,7 +23,7 @@ After a 6-hour lecture introducing Human-Computer Interaction (HCI), our first h
 
 ##### Definition
 
-Before we delve into real-life examples, let's define what an affordance in HCI. Affordance refers to the inherent usability or functionality of an object, interface, or system. It's a concept that suggests what actions can be performed with an object and how those actions can be intuitively understood by users. 
+Before we delve into real-life examples, let's define what an affordance in HCI. Affordance refers to the inherent **usability or functionality of an object, interface, or system**. It's a concept that suggests what actions can be performed with an object and how those actions can be intuitively understood by users. 
 
 ##### Good Affordance Example: The Guitar Stand
 
@@ -81,6 +81,8 @@ The Gestalt principles, developed by German psychologists, explain how humans in
 
 #### Examples
 
+Here are examples of website which do not respect these laws.
+
 ##### Userinyerface
 The game [Userinyerface](https://userinyerface.com/game.html) is a prime example of a digital interface that intentionally disregards several Gestalt Laws, creating a frustrating and confusing user experience.
 If you try the game you will observe that it introduces complexity and confusion in its design, challenging the notion of simplicity (Prägnanz), visual elements do not follow smooth paths or logical sequences, further adding to the disorienting experience (Continuity), consistency in color, shape, and styling is intentionally disrupted to defy user expectations (Similarity).
@@ -116,3 +118,30 @@ Correction: To enhance the user experience and align the design with Gestalt pri
 
 
 ### Dark designs
+
+***"A dark pattern is a type of user interface that appears to have been carefully crafted to trick users into doing things that are not in their interest and is usually at their expense."*** Harry Brignull, a London based UX designer.
+
+##### Forced Continuity
+
+When you have to start your free trial by adding your card details, or you need to enter your email to continue using a website or an app. Choosing to skip these self-interest gimmicks is not an option in forced continuity.
+
+To improve the design :
+- Transparent Cart
+- Explicit consent
+- Confirmation
+
+##### Roach Motel
+
+The Roach Motel design pattern makes it easy for users to sign up for a service or subscription but incredibly difficult for them to cancel or unsubscribe. 
+
+
+To redesign for an ethical use : 
+- Clear Cancelation Process
+- Confirmation and Feedback
+- Transparent Pricing
+
+
+
+
+
+

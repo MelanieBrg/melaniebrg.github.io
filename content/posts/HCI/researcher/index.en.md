@@ -1,6 +1,6 @@
 ---
 title: "Presentation of HCI researcher"
-date: 2023-09-30
+date: 2023-10-09
 description: 
 menu:
   sidebar:

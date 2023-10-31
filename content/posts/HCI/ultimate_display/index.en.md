@@ -1,6 +1,6 @@
 ---
 title: "The Ultimate Display"
-date: 2023-09-30
+date: 2023-10-10
 description: 
 menu:
   sidebar:

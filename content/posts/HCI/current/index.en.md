@@ -1,6 +1,6 @@
 ---
 title: "The shape of smartphones"
-date: 2023-10-31
+date: 2023-10-30
 description: 
 menu:
   sidebar:

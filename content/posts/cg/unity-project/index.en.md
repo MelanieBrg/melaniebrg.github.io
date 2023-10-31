@@ -1,6 +1,6 @@
 ---
 title: "3D platform game Unity"
-date: 2023-10-10T
+date: 2023-10-10
 description: Project
 menu:
   sidebar:

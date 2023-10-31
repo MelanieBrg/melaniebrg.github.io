@@ -1,6 +1,6 @@
 ---
 title: "Enhancing human habilities in the age of Augmented Reality"
-date: 2023-09-30
+date: 2023-10-21
 description: 
 menu:
   sidebar:

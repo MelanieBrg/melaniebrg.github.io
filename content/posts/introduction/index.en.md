@@ -15,6 +15,6 @@ categories: ["blog"]
 
 Welcome to the blog section of my portfolio website, where I present some of my work, projects, and experiments in:
 
-- HCI : Human-Computer Interface
-- CG : Computer Graphics 
-- DL : Deep learning
+- Human-Computer Interface
+- Computer Graphics 
+- Digital Content Protection

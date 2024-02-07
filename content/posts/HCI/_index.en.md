@@ -2,7 +2,7 @@
 title: Human Computer Interface
 menu:
   sidebar:
-    name: HCI
+    name: Human Computer Interaction
     identifier: hci
     weight: 20
 ---

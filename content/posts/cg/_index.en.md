@@ -2,7 +2,7 @@
 title: Computer Graphics
 menu:
   sidebar:
-    name: CG
+    name: Computer Graphics
     identifier: cg
     weight: 20
 ---

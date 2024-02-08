@@ -42,7 +42,7 @@ degrees:
   #  showGrades: true
   #  collapseAfter: 3
     courses:
-    - name: Computer vision, Computer Graphics, Deep learning, Machine learning
+    - name: Computer vision, AR/VR, IA, Computer graphics, Human-computer interfaces, Social robotics, Digital content protection, 3D reconstruction, e-Health and Bio imaging
   #    achieved: 3.75
   #    outOf: 4
   #  - name: Network Security
@@ -63,6 +63,26 @@ degrees:
   - Corporate Relation Officer at Art Club
   - Board member of the Photography club
 
+
+- name: Exchange Semester
+  icon: fa-school
+  timeframe: 2022
+  institution:
+    name: Polytechnique Montréal
+    url: "#"
+  grade: #(optional)
+  #  scale: With highest honors
+  #  achieved: 
+  #  outOf: 5
+  takenCourses: #(optional)
+  #  # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Aeronautics, Artificial intelligence, Biomedical Imaging, Entrepreneurship 
+
+
+
 - name: Preparatory class
   icon: fa-university
   timeframe: 2019-2021
@@ -79,7 +99,9 @@ degrees:
     collapseAfter: 3
     courses:
     - name: Intensive preparation in Mathematics, Physics, Computer Science, English and Philosophy for the competitive exams required to enter french "Grandes Ecoles"
+
   
+ 
 - name: Baccalaureate with highest honors
   icon: fa-school
   timeframe: 2019

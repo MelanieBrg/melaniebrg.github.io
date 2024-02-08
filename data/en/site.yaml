@@ -22,8 +22,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Melanie's Blog
+  title: Mélanie Brégou
   type: website
   description: Portfolio and personal blog of Mélanie Brégou.
-  image: images/author/john.png
+  image: images/author/me.png
   url: https://melaniebrg.github.io

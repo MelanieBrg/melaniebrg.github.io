@@ -1,0 +1,21 @@
+/* override this file for custom css */
+
+/* you can import boostrap mixins */
+// @import 'bootstrap/scss/mixins';
+// Example usage
+// .some-class {
+//   @include media-breakpoint-up(sm) {
+//     // Larger than sm: 576px
+//     display: inline;
+//   }
+//   @include media-breakpoint-down(md) {
+//     // Smaller than md: 768px
+//     display: block;
+//   }
+// }
+
+.home {
+    .background {
+        filter: blur(0px);
+    }
+}

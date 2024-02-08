@@ -13,7 +13,7 @@ section:
 skills:
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Scikit learn - Tensorflow - Pytorch - Matplotlib - Streamlit"
+  summary: "OpenCV - Scikit learn - Tensorflow - Pytorch - Matplotlib - Streamlit"
   url: "https://www.python.org"
 
 - name: Linux and MacOs
@@ -29,15 +29,23 @@ skills:
   logo: /images/sections/skills/java.png
   summary: "Know Java programming. Used object-oriented programming."
 
+- name: R
+  logo: /images/sections/skills/R_logo.svg
+  summary: "Used R Shiny package to develop a graphical interface."
+
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Database management and querying using SQL."
+
 - name: Unity
   logo: /images/sections/skills/unity.png
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "#"
+  summary: "Unity game development with proficiency in creating interactive 3D experiences. Familiar with Unity's game object hierarchy, scripting in C#, and implementing game mechanics and user interfaces. Capable of building applications for various platforms including computers, mobile devices, AR, and VR headsets."
+  #url: "#"
 
 - name: Blender
   logo: /images/sections/skills/blender.png
   summary: "3D modelisation and animation"
-  url: "#"
+  #url: "#"
 
 
 - name: Adobe Photoshop and Lightroom

@@ -6,19 +6,17 @@ section:
   weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections
-  hideTitle: true
+  hideTitle: false
 
 # Your achievements achievements
-#achievements:
-#- title: Awarded project at national French telecom headquarters
-#  image: /images/sections/achievements/presenter.jpg
-#  summary: Best presenter in the 2020 XYZ conference.
-#- title: Champion
-#  image: /images/sections/achievements/sport.jpg
-#  summary: Champion in cycling inter-city cycling championship 2020.
+achievements:
+- title: First prize at hackathon D4GEN 2023
+  image: /images/sections/achievements/D4GenHackathon_2023Laureats.png
+  summary: First prize obtained developing a machine learning model predicting the conservation of species at Genopole.
+- title: National tennis tournament winners
+  image: /images/sections/achievements/unss.jpeg
+  summary: Gold medal at national French championship UNSS 2019 in team
+- title: Awarded project at Orange GATE ceremony
+  image: /images/sections/achievements/orange.jpg
+  summary: The project aimed to develop a database for a deep learning model tasked with analyzing oral expressions.
 
-#- title: Awarded "GATE" project at national French telecom headquarters
-
-#- title: First prize at hackathon D4GEN 2023
-
-#- title: Gold medal at national French championship UNSS 2019 in team

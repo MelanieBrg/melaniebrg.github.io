@@ -14,7 +14,9 @@ designation: Mixed Reality Software Engineer at European Space Agency
 #  name: Example Co.
 #  url: "https://www.example.com"
 
-
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
 
 # a summary about you
 summary: "I am a computer science student finishing a double master degree at Institut Polytechnique de Paris and Télécom SudParis, specializing in Computer Vision, Mixed Reality, and AI. Currently based in Cologne (Germany) for my end-of-study internship at the European Space Agency and seeking full-time opportunities starting from September/October 2024. 
@@ -41,7 +43,7 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "files/2105.pdf"
+  url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

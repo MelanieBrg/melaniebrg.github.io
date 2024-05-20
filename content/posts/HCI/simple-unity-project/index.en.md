@@ -16,8 +16,9 @@ math: true
 
 ---
 
+### Introduction
 
-In this article, I will walk you through the process of developing a simple rollerball game in Unity, where the player controls a ball on a plane, collecting stars while avoiding red enemies. My game includes both static and shooter enemies, a health system with three lives, and a Game Over screen that allows players to restart or exit the game. Let's dive into the development process step by step.
+In this article, I will walk you through the process of developing a rollerball game in Unity, where the player controls a ball on a plane, collecting stars while avoiding red enemies. My game includes both static and shooter enemies, a health system with three lives, and a Game Over screen that allows players to restart or exit the game. Let's dive into the development process step by step.
 
 ### Game development 
 
@@ -75,7 +76,7 @@ The game currently works on a computer, but the next step is to make it mobile-f
 
 ### Extension to VR game
 
-I also built a version for a VR Meta Quest headset, following my professor's tutorial:
+I also built a version for a VR Hololens headset, following my professor's tutorial:
 
 1. Install the OpenXR Plugin and XR Interaction Toolkit from the Package Manager (Unity Registry).
 

@@ -11,10 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: European Space Agency
+    url: "https://www.esa.int"
+    location: Cologne (Germany)
+    overview: The European Space Agency (ESA) is a multinational organization dedicated to space exploration, research, and collaboration among European nations.
+  positions:
+  - designation: Mixed Reality Intern
+    start: Mar 2024
+    end: Sept 2024
+    responsibilities:
+    - Design, development and implementation of an Augmented Reality application to support astronauts during medical procedures, particularly on extended missions where telemedicine and returning to Earth may not be feasible.
+
+- company:
     name: Hillo
-    url: "#"
+    url: "https://www.hillo.ai"
     location: Paris (France)
-    # company overview
     overview: Hillo is a startup specialized in AI for the development of digital twins to support therapeutics decision-making.
   positions:
   - designation: Data Scientist Intern
@@ -28,7 +39,7 @@ experiences:
 
 - company:
     name: Foch Hospital
-    url: "#"
+    url: "https://www.hopital-foch.com"
     location: Suresnes (France)
     overview: Foch Hospital is the largest private university hospital in France, offering high-level multidisciplinary care.
   positions:

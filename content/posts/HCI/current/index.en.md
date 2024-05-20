@@ -13,7 +13,7 @@ author:
   name: Mélanie Brégou 
   image: /images/author/me.png
 math: true
-
+draft: true
 ---
 
 Mobile phones have come a long way in terms of design over the past decade. In this blog post, we'll take a closer look at the evolution of mobile phone design and shape, with a specific focus on weight, thickness, and display size.

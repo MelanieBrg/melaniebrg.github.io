@@ -21,13 +21,156 @@ buttons:
 
 # your projects
 projects:
-- name: To be completed
+
+
+- name: Lung Segmentation
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "February - July 2022"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  summary: Development of a robust lung segmentation using convolutional neural networks (CNN), initially for healthy lungs then for lungs with infiltrative pulmonary pathologies.
+  tags: ["project","deep learning", "segmentation", "academic"]
+
+- name: Surgical tool detection 
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "June 2023"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  summary: Detection of surgical tools on images and then on video streams with YOLOv8.
+  tags: ["project","deep learning", "detection", "academic"]
+
+- name: Data Science on diabetic patient dataset
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "June - August 2023"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  summary: Automatic data sorting and glycemic pattern detection 
+  tags: ["professional","machine learning"]
+
+- name: Graphical interface for clinical data
   #logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
+  #role: Contributor
+  timeline: "June - August 2021"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: to be completed
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: Development of a graphical interface to process, visualize and analyze clinical data using R.
+  tags: ["professional", "data"]
 
 
+- name: AR Medical Assistant
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "March - September 2024 "
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  summary: Design, development and implementation of an Augmented Reality application to support astronauts during medical procedures, particularly on extended missions where telemedicine and returning to Earth may not be feasible. Developed with Unity on Magic Leap 2 device using BlazePose Model, Spatial Meshing and MRTK.
+  tags: ["professional","ar", "computer vision", "deep learning"]
+
+
+- name: AI based fashion advice platform
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "May 2024 - Current "
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  summary: Development of a full-stack SaaS platform using Next.js 13, React, Tailwind CSS, Prisma, and tRPC, with integrated authentication services (Firebase) to provide users fashion advice. (Project in progress) 
+  tags: ["hobby","web"]
+
+
+- name: AR Game on HoloLens
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "January 2023"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/"  
+  summary: Design and development of an AR snow sleigh game circuit using Blender, Unity and MRTK3 for Hololens2.
+  tags: ["ar","hololens", "game", "academic"]
+
+- name: AR Mobile App
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "November 2023"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://melaniebrg.github.io/posts/ar-vr/tap-to-place/"  
+  summary:  Mobile application development with AR Foundation in Unity to place an object on the ground by taping its desired place on the screen.
+  tags: ["ar","mobile", "game", "academic"]
+
+
+- name: VR Escape Game 
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "January 2023"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://melaniebrg.github.io/posts/ar-vr/escape-vr/"  
+  summary: Development of enigmas to escape a room in VR with Unity on Metaquest 2.
+  tags: ["vr","metaquest", "game", "academic"]
+
+
+- name: 3D platform game development
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "October 2023"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://melaniebrg.github.io/posts/cg/unity-project/"  
+  summary:  Modelling and development of a music-themed platform game named “Virtuoso” with Unity.
+  tags: ["game", "academic"]
+
+- name: 3D modelling of my guitar
+  timeline: "September 2023"
+  url: "https://melaniebrg.github.io/posts/cg/blender-project/"  
+  summary: Creation and animation of a 3D model of my Taylor 510ce guitar with Blender. 
+  tags: ["blender", "academic"]
+
+- name: 3D reconstruction project
+  timeline: "December 2023"
+  #url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: Object reconstruction with photogrammetry using MicMac software.
+  tags: ["photogrammetry", "academic"]
+
+- name: Blockchain Application in Royalty Management for Digital Content Protection
+  timeline: "September 2023"
+  url: "https://melaniebrg.github.io/posts/dcp/blockchain-project/"  
+  summary: Utilization of Ethereum blockchain, with NFTs used to represent non-divisible assets like pictures. Deployment of smart contracts in Solidity language, enabling the creation, transfer, and ownership of tokens representing rights to artistic assets.
+  tags: ["content protection","blockchain", "academic"]
+
+
+- name: Digital Content Protection Labs
+  timeline: "September 2023"
+  url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: Encryption, steganography, watermarking, filtering on images.
+  tags: ["content protection", "academic"]
+
+- name: Emotion recognition with KNN  
+  timeline: "December 2023"
+  #url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: This project employs the K-Nearest Neighbors algorithm for emotion recognition from facial expressions.
+  tags: ["machine learning", "academic"]
+
+- name: Machine learning model predicting the conservation of species
+  timeline: "March 2023"
+  #url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: First prize obtained developing a XGBoost machine learning model predicting the conservation of species at the hackathon Genopole.
+  tags: ["machine learning", "hackathon"]
+
+
+- name: Grey-level Morphological Segmentation of CT-Scan
+  timeline: "March 2023"
+  #url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: Practice of the concepts and tools of binary mathematical morphology using the Morphotool software.
+  tags: ["morphology", "academic"]
+
+- name: Mobile App Development
+  timeline: "January - May 2022"
+  #url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: Connecting students to share rides for common commutes using Android Studio, Java, PHP, MySQL.
+  tags: ["java", "academic"]
+
+
+- name: Project management database creation
+  timeline: "January - May 2022"
+  #url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: Coordination of a team of 9 students to create a database for a model which analyzes oral expressions.
+  tags: ["management", "academic"]

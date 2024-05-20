@@ -17,9 +17,7 @@ math: true
 ---
 
 
-##### Introduction:
-
-Getting started with game development is an exciting journey, and Unity is an essential tool for aspiring developers. Thanks to the helpful guidance of my teacher, Léa Saunier, I successfully installed Unity on my M1 Mac computer. In this article, I'll provide a brief step-by-step guide on how to install Unity based on Léa Saunier's tutorial.
+I installed Unity on Mac M1 sucessfully and in this article I'll provide a brief step-by-step guide on how to install Unity based on Léa Saunier's tutorial.
 
 
 ##### Step 1: Download Unity Hub

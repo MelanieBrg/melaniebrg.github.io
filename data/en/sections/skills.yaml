@@ -37,10 +37,13 @@ skills:
   logo: /images/sections/skills/sql.png
   summary: "Database management and querying using SQL."
 
-- name: Unity
+- name: Unity (C#)
   logo: /images/sections/skills/unity.png
-  summary: "Unity game development with proficiency in creating interactive 3D experiences. Familiar with Unity's game object hierarchy, scripting in C#, and implementing game mechanics and user interfaces. Capable of building applications for various platforms including computers, mobile devices, AR, and VR headsets."
+  summary: "Unity development with proficiency in creating interactive 3D experiences. Familiar with Unity's game object hierarchy, scripting in C#, implementing game mechanics and user interfaces. Capable of building applications for various platforms including computers, mobile devices, AR (HoloLens and Magic Leap 2), and VR headsets (Meta Quest 2)."
   #url: "#"
+- name: Web Development
+  logo: /images/sections/skills/Typescript_logo.png
+  summary: "Developing a full-stack SaaS platform using Next.js 13, React, Tailwind CSS, Prisma, and tRPC, with integrated authentication services (Firebase)"
 
 - name: Blender
   logo: /images/sections/skills/blender.png
@@ -51,3 +54,4 @@ skills:
 - name: Adobe Photoshop and Lightroom
   logo: /images/sections/skills/photoshop.png
   summary: "Photography edition."
+

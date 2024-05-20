@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Dual master student at Institut Polytechnique de Paris et Télécom SudParis
+designation: Mixed Reality Software Engineer at European Space Agency
 # your company information
 #company:
 #  name: Example Co.
@@ -19,7 +19,8 @@ designation: Dual master student at Institut Polytechnique de Paris et Télécom
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am computer science student pursuing a double master degree at Institut Polytechnique de Paris and Télécom SudParis, specializing in Computer Vision, XR, and AI. This website is my portfolio, where you can explore my work in these fields and serves as a blog for my Masters's journey."
+summary: "I am a computer science student finishing a double master degree at Institut Polytechnique de Paris and Télécom SudParis, specializing in Computer Vision, Mixed Reality, and AI. Currently based in Cologne (Germany) for my end-of-study internship at the European Space Agency and seeking full-time opportunities starting from September/October 2024. 
+This website is my portfolio, where you can explore some of my work and serves as a blog for my Masters's journey."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -28,9 +29,9 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "melanie.bregou92@gmail.com"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://github.com/MelanieBrg"
+#- name: Github
+#  icon: "fab fa-github"
+#  url: "https://github.com/MelanieBrg"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"

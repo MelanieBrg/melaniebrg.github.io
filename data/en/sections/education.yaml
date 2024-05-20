@@ -15,24 +15,20 @@ degrees:
   timeframe: 2023-2024
   institution:
     name: Institut Polytechnique de Paris
-    url: "#"
-  #grade: #(optional)
-  #  scale: CGPA
-  #  achieved: 3.6
-  #  outOf: 4
-  #publications: #(optional)
-  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  #  url: "#"
-  #- title: Fusce eu augue ut odio porttitor pulvinar.
-  #  url: "#"
-  #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
-  #  url: "#"
+    url: "https://www.ip-paris.fr/education/masters/mention-electronique-energie-electrique-et-automatique-e3a/master-year-2-virtual-augmented-reality"
+
+  takenCourses: #(optional)
+  #  # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #  showGrades: true
+  #  collapseAfter: 3
+    courses:
+    - name: Computer vision, AR/VR, IA, Computer graphics, Human-computer interfaces, Social robotics, Digital content protection, 3D reconstruction, e-Health and Bio imaging
 - name: Engineering degree specialised in Computer science and High Tech Imaging
   icon: fa-graduation-cap
   timeframe: 2021-2024
   institution:
     name: Télécom SudParis
-    url: "#"
+    url: "https://www.telecom-sudparis.eu/en/"
   #grade: #(optional)
   #  scale: CGPA
   #  achieved: 3.5
@@ -42,7 +38,7 @@ degrees:
   #  showGrades: true
   #  collapseAfter: 3
     courses:
-    - name: Computer vision, AR/VR, IA, Computer graphics, Human-computer interfaces, Social robotics, Digital content protection, 3D reconstruction, e-Health and Bio imaging
+    - name: Machine learning, Deep learning, Networks, Electronics, Development, Mathematics, e-health track 
   #    achieved: 3.75
   #    outOf: 4
   #  - name: Network Security
@@ -69,7 +65,7 @@ degrees:
   timeframe: 2022
   institution:
     name: Polytechnique Montréal
-    url: "#"
+    url: "https://www.polymtl.ca"
   grade: #(optional)
   #  scale: With highest honors
   #  achieved: 
@@ -88,7 +84,7 @@ degrees:
   timeframe: 2019-2021
   institution:
     name: Saint Louis 
-    url: "#"
+    #url: "#"
   #grade: #(optional)
   #  scale: GPA
   #  achieved: 5
@@ -107,7 +103,7 @@ degrees:
   timeframe: 2019
   institution:
     name: Richelieu High School
-    url: "#"
+    #url: "#"
   grade: #(optional)
   #  scale: With highest honors
   #  achieved: 

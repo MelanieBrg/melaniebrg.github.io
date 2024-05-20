@@ -1,8 +1,8 @@
 # some information about you
 name: "Mélanie Brégou"
-nickname: "Mélanie"
+nickname: "Mélanie Brégou"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: ""
 image: "images/author/me.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,7 +13,6 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - Master student at Télécom SudParis
-  - Master student at Institut Polytechnique de Paris
-  - Passionate about E-health and Space exploration
-  - Interested in Mixed Reality and Artificial Intelligence
+  - Mixed Reality Intern at European Space Agency
+  - Master student at Télécom SudParis & Institut Polytechnique de Paris
+  - Interested in AI, Computer Vision and Mixed Reality

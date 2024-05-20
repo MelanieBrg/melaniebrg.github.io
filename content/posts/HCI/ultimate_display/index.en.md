@@ -13,7 +13,7 @@ author:
   name: Mélanie Brégou 
   image: /images/author/me.png
 math: true
-
+draft: true 
 ---
 
 In this article, we will delve into the visionary concepts put forth by Ivan Sutherland in his seminal paper, "[The Ultimate Display](http://worrydream.com/refs/Sutherland%20-%20The%20Ultimate%20Display.pdf)" written in 1965. He envisaged several possibilities, some of which have already materialized, while others remain on the horizon:

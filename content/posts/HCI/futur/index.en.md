@@ -13,7 +13,7 @@ author:
   name: Mélanie Brégou 
   image: /images/author/me.png
 math: true
-
+draft: true
 ---
 
 In today's fast-paced world, technology has become an integral part of our daily lives, and it's continually reshaping the way we go about our routines. Augmented Reality (AR) is one such technology that holds the potential to enhance human abilities and make our lives more efficient and enjoyable. In this blog article, I present an innovative project aimed at transforming the way we plan meals, manage kitchen inventory, and shop for groceries – all through the lens of AR.

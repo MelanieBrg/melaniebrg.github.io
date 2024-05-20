@@ -11,13 +11,12 @@ menu:
 #tags: ["unity","game"]
 hero: front.png
 categories: ["project","deep learning", "segmentation"]
-hide: true
+hide: false
 ---
 
 
 For this research project, I collaborated with Clarisse Nouet and Clara Stavun under the supervision of Catalin Fetita, Noureddine Khiati and Antoine Didier from ARTEMIS departement.
 
-Here is our project report :
 
 ## Introduction
 

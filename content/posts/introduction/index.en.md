@@ -13,8 +13,9 @@ categories: ["blog"]
 
 ---
 
-Welcome to the blog section of my portfolio website, where I present some of my work, projects, and experiments in:
+Welcome to the blog section of my portfolio website, where I present some of my work, [projects](https://melaniebrg.github.io/#projects), and experiments in:
 
-- Human-Computer Interface
+- Deep Leaning 
+- AR/VR
 - Computer Graphics 
 - Digital Content Protection

@@ -88,9 +88,3 @@ public class PlaceItem : MonoBehaviour
 }
 ```
 
-
-
-
-#### Iphone deployment
-
-Go to build setting and select iOS (install the necessary module if needed)

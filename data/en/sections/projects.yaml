@@ -22,6 +22,14 @@ buttons:
 # your projects
 projects:
 
+- name: AR Medical Assistant
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "March - September 2024 "
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  summary: Design, development and implementation of an Augmented Reality application to support astronauts during medical procedures, particularly on extended missions where telemedicine and returning to Earth may not be feasible. Developed with Unity on Magic Leap 2 device using BlazePose Model, Spatial Meshing and MRTK.
+  tags: ["professional","ar", "computer vision", "deep learning"]
 
 - name: Lung Segmentation
   #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
@@ -37,7 +45,7 @@ projects:
   #role: Contributor
   timeline: "June 2023"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
   summary: Detection of surgical tools on images and then on video streams with YOLOv8.
   tags: ["project","deep learning", "detection", "academic"]
 
@@ -58,16 +66,6 @@ projects:
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Development of a graphical interface to process, visualize and analyze clinical data using R.
   tags: ["professional", "data"]
-
-
-- name: AR Medical Assistant
-  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
-  #role: Contributor
-  timeline: "March - September 2024 "
-  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
-  summary: Design, development and implementation of an Augmented Reality application to support astronauts during medical procedures, particularly on extended missions where telemedicine and returning to Earth may not be feasible. Developed with Unity on Magic Leap 2 device using BlazePose Model, Spatial Meshing and MRTK.
-  tags: ["professional","ar", "computer vision", "deep learning"]
 
 
 - name: AI based fashion advice platform

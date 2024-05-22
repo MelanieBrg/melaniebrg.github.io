@@ -20,7 +20,8 @@ experiences:
     start: Mar 2024
     end: Sept 2024
     responsibilities:
-    - Design, development and implementation of an Augmented Reality application to support astronauts during medical procedures, particularly on extended missions where telemedicine and returning to Earth may not be feasible.
+    - Design, develop, and implement an AR application to assist astronauts during medical procedures particularly for extended missions where telemedicine and returning to Earth are not feasible.
+    - Utilize the Magic Leap 2 headset to integrate image processing and computer vision algorithms for pose model detection and spatial meshing enabling the rendering of 3D information essential for medical procedures.
 
 - company:
     name: Hillo

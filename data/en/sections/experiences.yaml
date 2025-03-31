@@ -10,6 +10,22 @@ section:
 
 # Your experiences
 experiences:
+
+- company:
+    name: Supersonic Imagine
+    url: "https://www.supersonicimagine.com"
+    location: Aix-en-Provence (France)
+    overview: SuperSonic Imagine is a medical technology company developing and manufacturing advanced ultrasound imaging systems. 
+  positions:
+  - designation: Image Processing Research Scientist
+    start: Oct 2024
+    end: Present
+    responsibilities:
+    - Develop and optimize **image processing, computer vision, and AI algorithms** for ultrasound imaging. Develop a **deep learning model** for **tumor detection, segmentation, and classification**, and contribute to its **integration** into premium ultrasound devices.
+    - Explored **ultrasound physics**, collaborated with clinicians to learn **scanning techniques**, understand anatomy and diagnostics. Gained insights into **data collection protocols** and the **regulatory process for AI in medical devices**.
+
+
+
 - company:
     name: European Space Agency
     url: "https://www.esa.int"
@@ -20,8 +36,9 @@ experiences:
     start: Mar 2024
     end: Sept 2024
     responsibilities:
-    - Design, develop, and implement an AR application to assist astronauts during medical procedures particularly for extended missions where telemedicine and returning to Earth are not feasible.
-    - Utilize the Magic Leap 2 headset to integrate image processing and computer vision algorithms for pose model detection and spatial meshing enabling the rendering of 3D information essential for medical procedures.
+    - Design, develop, and implement an **augmented reality** (AR) application to **assist astronauts during medical procedures** particularly for extended missions where telemedicine and returning to Earth are not feasible.
+    - Developed a **computer vision pipeline** integrating Magic Leap 2's RGB camera and depth camera, enabling **real-time pose detection** and generating precise 3D information essential for medical procedures in AR.
+
 
 - company:
     name: Hillo
@@ -35,7 +52,7 @@ experiences:
     end: Sept 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Developed algorithms for automatic data sorting and glycemic pattern detection from diabetic patient data.
+    - Developed **machine learning models** for diabetic patient data, integrating **time-based events** (meal times, insulin injections) with quantitative measurements of blood glucose levels from historical data.
 
 
 - company:
@@ -48,5 +65,5 @@ experiences:
     start: Jun 2022
     end: Aug 2022
     responsibilities:
-    - Developed a graphical interface to process, visualized and analyzed clinical COVID 19 data using R.
+    - Developed a graphical interface to **process, visualize and analyze clinical data** for infectious pulmonary diseases,including COVID-19 biomarker research.
 

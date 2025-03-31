@@ -12,8 +12,6 @@ menu:
 hero: front.png
 categories: ["ia","project", "yolo", "detection", "health"]
 
-
-
 draft: true
 
 

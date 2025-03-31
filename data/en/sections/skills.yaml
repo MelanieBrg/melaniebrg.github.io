@@ -25,6 +25,13 @@ skills:
   summary: "Experienced with git-based development using Github and GitLab."
   url: "https://git-scm.com/"
 
+
+
+- name: C++
+  logo: /images/sections/skills/unity.png
+  summary: "Integration of deep learning model in ultrasound device using C++."
+  #url: "#"
+
 - name: Java
   logo: /images/sections/skills/java.png
   summary: "Know Java programming. Used object-oriented programming."

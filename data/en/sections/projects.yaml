@@ -16,11 +16,20 @@ buttons:
   filter: "professional"
 - name: Academic
   filter: "academic"
-- name: Hobby
-  filter: "hobby"
+#- name: Hobby
+#  filter: "hobby"
 
 # your projects
 projects:
+
+- name: Tumor Detection and Segmentation
+  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+  #role: Contributor
+  timeline: "October 2024 - June 2025"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+  summary: Development of a robust tumor detection and segmentation model, and contribution to its integration into premium ultrasound devices.
+  tags: ["professional","deep learning", "segmentation"]
 
 - name: AR Medical Assistant
   #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
@@ -68,14 +77,14 @@ projects:
   tags: ["professional", "data"]
 
 
-- name: AI based fashion advice platform
-  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
-  #role: Contributor
-  timeline: "May 2024 - Current "
-  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
-  summary: Development of a full-stack SaaS platform using Next.js 13, React, Tailwind CSS, Prisma, and tRPC, with integrated authentication services (Firebase) to provide users fashion advice. (Project in progress) 
-  tags: ["hobby","web"]
+#- name: AI based fashion advice platform
+#  #logo: /Users/Melanie/melaniebrg.github.io/content/posts/dl/lung-segmentation/front.png
+#  #role: Contributor
+#  timeline: "May 2024 - Current "
+#  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+#  #url: "https://melaniebrg.github.io/posts/dl/lung-segmentation/"  
+#  summary: Development of a full-stack SaaS platform using Next.js 13, React, Tailwind CSS, Prisma, and tRPC, with integrated authentication services (Firebase) to provide users fashion advice. (Project in progress) 
+#  tags: ["hobby","web"]
 
 
 - name: AR Game on HoloLens
@@ -172,3 +181,9 @@ projects:
   #url: "https://melaniebrg.github.io/posts/dcp/"  
   summary: Coordination of a team of 9 students to create a database for a model which analyzes oral expressions.
   tags: ["management", "academic"]
+
+- name: AI agent for space information retrieval
+  timeline: "February 2025"
+  #url: "https://melaniebrg.github.io/posts/dcp/"  
+  summary: As part of the course of AI agents from Hugging Face, creating my first AI agent for space information retrieval using smolagents.
+  tags: ["AI", "hobby"]

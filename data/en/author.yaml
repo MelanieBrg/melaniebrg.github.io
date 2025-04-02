@@ -3,7 +3,7 @@ name: "Mélanie Brégou"
 nickname: "Mélanie Brégou"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: ""
-image: "images/author/me.png"
+image: "images/author/melanie_bregou.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "melanie.bregou92@gmail.com"
@@ -14,7 +14,6 @@ contactInfo:
 # some summary about what you do
 summary:
   - AI / Computer Vision Engineer 
-  - Ex Mixed Reality Intern at European Space Agency
   - Interested in AI, Computer Vision and Mixed Reality
-  - Dual Master degree from Télécom SudParis & Institut Polytechnique de Paris
+  - Passionate about Tech, E-Health, Space Exploration and Aeronautics
   

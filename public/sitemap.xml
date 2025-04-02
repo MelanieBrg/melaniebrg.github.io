@@ -158,27 +158,6 @@
     <loc>http://localhost:1313/categories/vr/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/dl/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/detection/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/health/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ia/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/project/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/dl/yolov8/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/yolo/</loc>
-    <lastmod>2024-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/arfoundation/</loc>
     <lastmod>2023-11-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -278,7 +257,13 @@
     <loc>http://localhost:1313/posts/dl/lung-segmentation/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/dl/</loc>
+    <lastmod>2023-07-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/deep-learning/</loc>
+    <lastmod>2023-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/project/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/segmentation/</loc>

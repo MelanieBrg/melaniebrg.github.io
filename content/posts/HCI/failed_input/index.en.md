@@ -3,11 +3,11 @@ title: "Input Devices and Interaction Paradigms"
 date: 2023-10-20
 description: 
 menu:
-  sidebar:
-    name:  Interaction Paradigms
-    identifier: input
-    parent: hci
-    weight: 30
+  #sidebar:
+  #  name:  Interaction Paradigms
+  #  identifier: input
+  #  parent: hci
+  #  weight: 30
 hero: fail.png
 author:
   name: Mélanie Brégou 

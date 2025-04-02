@@ -1,2 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>deep learning on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/deep-learning/</link><description>Recent content in deep learning on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Achieving robust segmentation of lung regions in CT images irrespective to pathology</title><link>https://melaniebrg.github.io/posts/dl/lung-segmentation/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dl/lung-segmentation/</guid><description>For this research project, I collaborated with Clarisse Nouet and Clara Stavun under the supervision of Catalin Fetita, Noureddine Khiati and Antoine Didier from ARTEMIS departement.
-Introduction Context and Problem Statement Infiltrative Lung Pathologies Infiltrative lung diseases manifest as a progressive disintegration of lung tissues, resulting in impaired functioning. They can obstruct up to 40%, as depicted in the following images, representing lungs affected by IIP (fibrosis), Covid-19, and ARDS (consolidations).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Mélanie Brégou</title>
+    <link>http://localhost:1313/categories/deep-learning/</link>
+    <description>Recent content in Deep Learning on Mélanie Brégou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Achieving robust segmentation of lung regions in CT images irrespective to pathology</title>
+      <link>http://localhost:1313/posts/dl/lung-segmentation/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/dl/lung-segmentation/</guid>
+      <description>&lt;p&gt;For this research project, I collaborated with Clarisse Nouet and Clara Stavun under the supervision of Catalin Fetita, Noureddine Khiati and Antoine Didier from ARTEMIS departement.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h3 id=&#34;context-and-problem-statement&#34;&gt;Context and Problem Statement&lt;/h3&gt;
+&lt;h4 id=&#34;infiltrative-lung-pathologies&#34;&gt;Infiltrative Lung Pathologies&lt;/h4&gt;
+&lt;p&gt;Infiltrative lung diseases manifest as a progressive disintegration of lung tissues, resulting in impaired functioning. They can obstruct up to 40%, as depicted in the following images, representing lungs affected by IIP (fibrosis), Covid-19, and ARDS (consolidations).&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

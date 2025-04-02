@@ -3,11 +3,11 @@ title: "Presentation of HCI researcher"
 date: 2023-10-09
 description: 
 menu:
-  sidebar:
-    name: Researcher presentation
-    identifier: biography
-    parent: hci
-    weight: 40
+  #sidebar:
+  #  name: Researcher presentation
+  #  identifier: biography
+  #  parent: hci
+  #  weight: 40
 hero: research.png
 author:
   name: Mélanie Brégou 

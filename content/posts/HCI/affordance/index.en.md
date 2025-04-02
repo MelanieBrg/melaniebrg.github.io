@@ -3,17 +3,19 @@ title: "Affordance in daily life"
 date: 2023-09-30
 description: template
 menu:
-  sidebar:
-    name: Affordance in daily life
-    identifier: affordance
-    parent: hci
-    weight: 30
+  #sidebar:
+  #  name: Affordance in daily life
+  #  identifier: affordance
+  #  parent: hci
+  #  weight: 30
 hero: vox_front.jpg
 author:
   name: Mélanie Brégou 
   image: /images/author/me.png
 math: true
 draft: true
+show: false 
+hide: true
 ---
 
 

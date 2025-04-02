@@ -1,4 +1,152 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Content Protection on Mélanie Brégou</title><link>https://melaniebrg.github.io/posts/dcp/</link><description>Recent content in Digital Content Protection on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/posts/dcp/index.xml" rel="self" type="application/rss+xml"/><item><title>Blockchain Application in Royalty Management for Digital Content Protection</title><link>https://melaniebrg.github.io/posts/dcp/blockchain-project/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/blockchain-project/</guid><description>In collaboration with Kanita Loisy and Pauline Spinga, I delved into a project focusing on the application of blockchain technology in royalty management for the course &amp;ldquo;Digital Content Protection&amp;rdquo; . As the digitization of resources continues to proliferate, the need for robust protection mechanisms has become increasingly apparent. Our project aimed to explore how blockchain could revolutionize the management of intellectual property rights, particularly in the realm of visual content.</description></item><item><title>Spread Spectrum Watermarking Lab</title><link>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 27/10/2023 Objective : Implement a spread spectrum watermarking method, with a focus on utilizing off-the-shelf random number generators, understanding the principles of uniform and Gaussian distributed generators, exploring correlation functions, and applying these concepts towards CDMA-based watermarking.
-Table of Contents Off-the-Shelf Random Number Generators Principles Uniform Distributed Generator Gaussian Distributed Generator Correlation Functions Graphical Representation and Properties Temporal Autocorrelation Function Cross-Correlation Function Towards CDMA Study the robustness against noise addition CDMA-Based Watermarking Off-the-Shelf Random Number Generators Principles import matplotlib.</description></item><item><title>2D Image filtering Lab</title><link>https://melaniebrg.github.io/posts/dcp/filtering-lab/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/filtering-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 13/10/2023 Objective : relate the transform representation and its visual impact
-Table of Contents Compute the 2D-DCT for the images Low pass filtering High pass filtering Illustrating how the spatial DCT frequencies are related the visual content Compute the 2D-DCT for the images The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain.</description></item><item><title>Illustrations on image encryption and steganography Lab</title><link>https://melaniebrg.github.io/posts/dcp/encryption-lab/</link><pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/encryption-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 06/10/2023 Objective : delve into image encryption and steganography, exploring classical ciphers and digital techniques.
-Table of Contents CAESAR cipher Simple substitution cipher Simple transposition cipher LSB (lowest significant bit) steganography Image compression in JPG Image compression in PNG LSB with 2 significant bit from matplotlib import image import matplotlib.pyplot as plt import numpy as np import random from PIL import Image Firstly, let&amp;rsquo;s display the images used for this lab.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Content Protection on Mélanie Brégou</title>
+    <link>http://localhost:1313/posts/dcp/</link>
+    <description>Recent content in Digital Content Protection on Mélanie Brégou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/dcp/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Blockchain Application in Royalty Management for Digital Content Protection</title>
+      <link>http://localhost:1313/posts/dcp/blockchain-project/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/dcp/blockchain-project/</guid>
+      <description>&lt;p&gt;In collaboration with Kanita Loisy and Pauline Spinga, I delved into a project focusing on the application of blockchain technology in royalty management for the course &amp;ldquo;Digital Content Protection&amp;rdquo; . As the digitization of resources continues to proliferate, the need for robust protection mechanisms has become increasingly apparent. Our project aimed to explore how blockchain could revolutionize the management of intellectual property rights, particularly in the realm of visual content.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spread Spectrum Watermarking Lab</title>
+      <link>http://localhost:1313/posts/dcp/watermarking-lab/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/dcp/watermarking-lab/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Course&lt;/th&gt;
+          &lt;th&gt;Date&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mélanie Brégou&lt;/td&gt;
+          &lt;td&gt;Digital content protection&lt;/td&gt;
+          &lt;td&gt;27/10/2023&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Objective :&lt;/strong&gt; Implement a spread spectrum watermarking method, with a focus on utilizing off-the-shelf random number generators, understanding the principles of uniform and Gaussian distributed generators, exploring correlation functions, and applying these concepts towards CDMA-based watermarking.&lt;/p&gt;
+&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#off-the-shelf-random-number-generators&#34;&gt;Off-the-Shelf Random Number Generators&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#principles&#34;&gt;Principles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#uniform-distributed-generators&#34;&gt;Uniform Distributed Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;###Gaussian-Distributed-Generators&#34;&gt;Gaussian Distributed Generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#correlation-functions&#34;&gt;Correlation Functions&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#graphical-representation-and-properties&#34;&gt;Graphical Representation and Properties&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#temporal-autocorrelation-function&#34;&gt;Temporal Autocorrelation Function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cross-correlation-function&#34;&gt;Cross-Correlation Function&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#towards-cdma&#34;&gt;Towards CDMA&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#study-the-robustness-against-noise-addition&#34;&gt;Study the robustness against noise addition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cdma-based-watermarking&#34;&gt;CDMA-Based Watermarking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;off-the-shelf-random-number-generators&#34;&gt;Off-the-Shelf Random Number Generators&lt;/h2&gt;
+&lt;h3 id=&#34;principles&#34;&gt;Principles&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; random
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We define the LCG (linear congruential generator) function : xn = (a * xn-1 + b) mod c,&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2D Image filtering Lab</title>
+      <link>http://localhost:1313/posts/dcp/filtering-lab/</link>
+      <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/dcp/filtering-lab/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Course&lt;/th&gt;
+          &lt;th&gt;Date&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mélanie Brégou&lt;/td&gt;
+          &lt;td&gt;Digital content protection&lt;/td&gt;
+          &lt;td&gt;13/10/2023&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Objective :&lt;/strong&gt; relate the transform representation and its visual impact&lt;/p&gt;
+&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#compute-the-2d-dct-for-the-images&#34;&gt;Compute the 2D-DCT for the images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#low-pass-filtering&#34;&gt;Low pass filtering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#high-pass-filtering&#34;&gt;High pass filtering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content&#34;&gt;Illustrating how the spatial DCT frequencies are related the visual content&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;compute-the-2d-dct-for-the-images&#34;&gt;Compute the 2D-DCT for the images&lt;/h3&gt;
+&lt;p&gt;The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain. This transformation is a pivotal tool for analyzing the spatial characteristics of images, allowing the separation of high-frequency components (edges or fine details) from low-frequency components  (smooth transitions and gradual changes).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Illustrations on image encryption and steganography Lab</title>
+      <link>http://localhost:1313/posts/dcp/encryption-lab/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/dcp/encryption-lab/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Course&lt;/th&gt;
+          &lt;th&gt;Date&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mélanie Brégou&lt;/td&gt;
+          &lt;td&gt;Digital content protection&lt;/td&gt;
+          &lt;td&gt;06/10/2023&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Objective :&lt;/strong&gt; delve into image encryption and steganography, exploring classical ciphers and digital techniques.&lt;/p&gt;
+&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#caesar-cypher-applied-to-images&#34;&gt;CAESAR cipher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#simple-substitution-cipher-applied-to-images&#34;&gt;Simple substitution cipher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#simple-transposition-cipher-applied-to-images&#34;&gt;Simple transposition cipher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lsb-lowest-significant-bit-steganography&#34;&gt;LSB (lowest significant bit) steganography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#image-compression-in-jpg&#34;&gt;Image compression in JPG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#image-compression-in-png&#34;&gt;Image compression in PNG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lsb-with-2-significant-bit&#34;&gt;LSB with 2 significant bit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; image
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; random
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; PIL &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Firstly, let&amp;rsquo;s display the images used for this lab.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

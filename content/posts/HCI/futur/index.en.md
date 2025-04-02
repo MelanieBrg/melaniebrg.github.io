@@ -3,11 +3,11 @@ title: "Enhancing human habilities in the age of Augmented Reality"
 date: 2023-10-21
 description: 
 menu:
-  sidebar:
-    name: Enhancing human habilities AR
-    identifier: enhance
-    parent: hci
-    weight: 30
+  #sidebar:
+  #  name: Enhancing human habilities AR
+  #  identifier: enhance
+  #  parent: hci
+  #  weight: 30
 hero: futur.png
 author:
   name: Mélanie Brégou 

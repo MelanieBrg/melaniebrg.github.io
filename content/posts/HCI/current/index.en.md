@@ -3,11 +3,11 @@ title: "The shape of smartphones"
 date: 2023-10-30
 description: 
 menu:
-  sidebar:
-    name: The shape of smartphones
-    identifier: shape
-    parent: hci
-    weight: 30
+  #sidebar:
+  #  name: The shape of smartphones
+  #  identifier: shape
+  #  parent: hci
+  #  weight: 30
 hero: evolution.png
 author:
   name: Mélanie Brégou 

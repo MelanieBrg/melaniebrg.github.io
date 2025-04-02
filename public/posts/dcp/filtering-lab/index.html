@@ -1,53 +1,667 @@
-<!doctype html><html lang=en><head><title>2D Image filtering Lab</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/application.24ece3e63c749b0facddf1e3156cbac63fdb90c5b1650187b620d53ab89287d1.css integrity="sha256-JOzj5jx0mw+s3fHjFWy6xj/bkMWxZQGHtiDVOriSh9E="><link rel=icon type=image/png href=/images/site/favicon-16x16_hu2de582bf2cbe6aeaf3734397f2d741cf_647_42x0_resize_box_3.png><meta property="og:title" content="2D Image filtering Lab"><meta property="og:description" content="Lab"><meta property="og:type" content="article"><meta property="og:url" content="https://melaniebrg.github.io/posts/dcp/filtering-lab/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-10-13T00:00:00+00:00"><meta property="article:modified_time" content="2023-10-13T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="2D Image filtering Lab"><meta name=twitter:description content="Lab"><meta name=description content="Lab"><script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-H4LBG7NDFZ",{anonymize_ip:!1})}</script></head><body class="type-posts kind-page" data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
-<span class=navbar-toggler-icon></span></button>
-<a class=navbar-brand href=/><img src=/images/site/inverted-logo_hu5d28afd3e8a4d26451a47582e9d04c66_7859_42x0_resize_box_3.png alt=Logo>
-Mélanie Brégou</a>
-<button class="navbar-toggler navbar-light" id=toc-toggler type=button>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=menu-icon-center src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme"></a>
-<a class="dropdown-item nav-link" href=# data-scheme=dark><img class=menu-icon-center src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a>
-<a class="dropdown-item nav-link" href=# data-scheme=system><img class=menu-icon-center src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/inverted-logo_hu5d28afd3e8a4d26451a47582e9d04c66_7859_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
-<img src=/images/site/main-logo_hu0e05227e23cc63e0456167155dcafe0f_7555_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts/ data-filter=all>Posts</a></li><div class=subtree><li><a href=/posts/introduction/ title=Introduction>Introduction</a></li><li><i class="fas fa-plus-circle"></i><a href=/posts/dl/> Deep learning</a><ul><li><a href=/posts/dl/lung-segmentation/ title="Lung Segmentation">Lung Segmentation</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/ar-vr/> AR/VR</a><ul><li><a href=/posts/ar-vr/sleigh-ar/ title="Snow sleigh Hololens">Snow sleigh Hololens</a></li><li><a href=/posts/ar-vr/escape-vr/ title="Escape Game VR">Escape Game VR</a></li><li><a href=/posts/ar-vr/tap-to-place/ title="Tap to Place App">Tap to Place App</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/cg/> Computer Graphics</a><ul><li><a href=/posts/cg/blender-project/ title="Guitar blender">Guitar blender</a></li><li><a href=/posts/cg/unity-project/ title="Unity 3D platform game">Unity 3D platform game</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/hci/> Human Computer Interaction</a><ul><li><a href=/posts/hci/blog-creation/ title="Portfolio Set up">Portfolio Set up</a></li><li><a href=/posts/hci/simple-unity-project/ title="Roller Ball Game">Roller Ball Game</a></li><li><a href=/posts/hci/unity-install/ title="Unity installation">Unity installation</a></li></ul></li><li><i class="fas fa-minus-circle"></i><a class=active href=/posts/dcp/> Content Protection</a><ul class=active><li><a href=/posts/dcp/encryption-lab/ title="Encryption & Stegano">Encryption & Stegano</a></li><li><a class=active href=/posts/dcp/filtering-lab/ title="Image filtering">Image filtering</a></li><li><a href=/posts/dcp/watermarking-lab/ title=Watermarking>Watermarking</a></li><li><a href=/posts/dcp/blockchain-project/ title="Blockchain project">Blockchain project</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/posts/dcp/filtering-lab/front.png)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=/images/author/me_hu86fe79a00dcedb6e8a227a5dde172b46_660164_120x120_fit_box_3.png alt="Author Image"><h5 class=author-name>Mélanie Brégou</h5><p>Friday, October 13, 2023</p></div><div class=title><h1>2D Image filtering Lab</h1></div><div class=taxonomy-terms><ul style=padding-left:0></ul></div><div class=post-content id=post-content><table><thead><tr><th>Name</th><th>Course</th><th>Date</th></tr></thead><tbody><tr><td>Mélanie Brégou</td><td>Digital content protection</td><td>13/10/2023</td></tr></tbody></table><p><strong>Objective :</strong> relate the transform representation and its visual impact</p><h3 id=table-of-contents>Table of Contents</h3><ul><li><a href=#compute-the-2d-dct-for-the-images>Compute the 2D-DCT for the images</a></li><li><a href=#low-pass-filtering>Low pass filtering</a></li><li><a href=#high-pass-filtering>High pass filtering</a></li><li><a href=#illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content>Illustrating how the spatial DCT frequencies are related the visual content</a></li></ul><h3 id=compute-the-2d-dct-for-the-images>Compute the 2D-DCT for the images</h3><p>The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain. This transformation is a pivotal tool for analyzing the spatial characteristics of images, allowing the separation of high-frequency components (edges or fine details) from low-frequency components (smooth transitions and gradual changes).</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>import</span> cv2
-</span></span><span style=display:flex><span><span style=color:#f92672>import</span> numpy <span style=color:#66d9ef>as</span> np
-</span></span><span style=display:flex><span><span style=color:#f92672>import</span> matplotlib.pyplot <span style=color:#66d9ef>as</span> plt 
-</span></span><span style=display:flex><span><span style=color:#f92672>import</span> os
-</span></span></code></pre></div><p>Let&rsquo;s calculate and save to results folder the DCT of Lena and baboon images.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>results_dir <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;./results&#34;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>not</span> os<span style=color:#f92672>.</span>path<span style=color:#f92672>.</span>exists(results_dir):
-</span></span><span style=display:flex><span>    os<span style=color:#f92672>.</span>makedirs(results_dir)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>lena <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>imread(<span style=color:#e6db74>&#34;../TP-HTI/lena.jpg&#34;</span>, <span style=color:#ae81ff>0</span>)
-</span></span><span style=display:flex><span>lena_f <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>float32(lena)
-</span></span><span style=display:flex><span>dct_lena <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>dct(lena_f)
-</span></span><span style=display:flex><span>cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>&#34;./results/lena_dct.jpg&#34;</span>, dct_lena)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>baboon <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>imread(<span style=color:#e6db74>&#34;../TP-HTI/baboon.jpg&#34;</span>, <span style=color:#ae81ff>0</span>)
-</span></span><span style=display:flex><span>baboon_f <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>float32(baboon)
-</span></span><span style=display:flex><span>dct_baboon <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>dct(baboon_f)
-</span></span><span style=display:flex><span>cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>&#34;./results/baboon_dct.jpg&#34;</span>, dct_baboon)
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>2D Image filtering Lab</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.11cb60d044305a91c1d5c41dcb5e9c53adab3581cca73a4b3b692b1a4d921ba7.css" integrity="sha256-Ectg0EQwWpHB1cQdy16cU62rNYHMpzpLO2krGk2SG6c=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon-16x16_hu_62b149fa3ce5f834.png" />
+
+
+
+<meta property="og:url" content="http://localhost:1313/posts/dcp/filtering-lab/">
+  <meta property="og:site_name" content="Mélanie Brégou">
+  <meta property="og:title" content="2D Image filtering Lab">
+  <meta property="og:description" content="Lab">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-10-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-10-13T00:00:00+00:00">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="2D Image filtering Lab">
+  <meta name="twitter:description" content="Lab">
+
+    
+    
+<meta name="description" content="Lab" />
+
+
+
+    
+
+    
+        
+            
+            
+                
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( null ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-H4LBG7NDFZ');
+        }
+      </script>
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+
+            
+
+            
+        
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/inverted-logo_hu_5b82633ff2a5e85f.png" id="logo" alt="Logo">
+      Mélanie Brégou</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#education">Education</a>
+                </li>
+              
+            
+            
+              
+              
+            
+            
+            
+            
+              
+              
+            
+            
+            
+              
+              
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#projects">Projects</a>
+                    
+                  
+                  
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#recent-posts">Recent Posts</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#achievements">Achievements</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+            
+        
+        
+        
+          
+
+
+
+  
+  
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/inverted-logo_hu_5b82633ff2a5e85f.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/main-logo_hu_68bada169f04897b.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/dl/"> Deep learning</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/dl/lung-segmentation/" title="Lung Segmentation">Lung Segmentation</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/ar-vr/"> AR/VR</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/ar-vr/sleigh-ar/" title="Snow sleigh Hololens">Snow sleigh Hololens</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/ar-vr/escape-vr/" title="Escape Game VR">Escape Game VR</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/ar-vr/tap-to-place/" title="Tap to Place App">Tap to Place App</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/cg/"> Computer Graphics</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/cg/blender-project/" title="Guitar blender">Guitar blender</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/cg/unity-project/" title="Unity 3D platform game">Unity 3D platform game</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/hci/" title="Human Computer Interaction">Human Computer Interaction</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i data-feather="minus-circle"></i><a class="active list-link" href="/posts/dcp/"> Content Protection</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/dcp/encryption-lab/" title="Encryption &amp; Stegano">Encryption &amp; Stegano</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active list-link" href="/posts/dcp/filtering-lab/" title="Image filtering">Image filtering</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/dcp/watermarking-lab/" title="Watermarking">Watermarking</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/dcp/blockchain-project/" title="Blockchain project">Blockchain project</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/posts/dcp/filtering-lab/front.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/me_hu_e6fe53f6c59ecbd0.png' alt="Author Image">
+          <h5 class="author-name">Mélanie Brégou</h5>
+          <p class="text-muted">Friday, October 13, 2023 | 5 minutes</p>
+        </div>
+        
+
+        <div class="title">
+          <h1>2D Image filtering Lab</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Course</th>
+          <th>Date</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mélanie Brégou</td>
+          <td>Digital content protection</td>
+          <td>13/10/2023</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Objective :</strong> relate the transform representation and its visual impact</p>
+<h3 id="table-of-contents">Table of Contents</h3>
+<ul>
+<li><a href="#compute-the-2d-dct-for-the-images">Compute the 2D-DCT for the images</a></li>
+<li><a href="#low-pass-filtering">Low pass filtering</a></li>
+<li><a href="#high-pass-filtering">High pass filtering</a></li>
+<li><a href="#illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content">Illustrating how the spatial DCT frequencies are related the visual content</a></li>
+</ul>
+<h3 id="compute-the-2d-dct-for-the-images">Compute the 2D-DCT for the images</h3>
+<p>The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain. This transformation is a pivotal tool for analyzing the spatial characteristics of images, allowing the separation of high-frequency components (edges or fine details) from low-frequency components  (smooth transitions and gradual changes).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> cv2
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span></code></pre></div><p>Let&rsquo;s calculate and save to results folder the DCT of Lena and baboon images.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>results_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;./results&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(results_dir):
+</span></span><span style="display:flex;"><span>    os<span style="color:#f92672">.</span>makedirs(results_dir)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>lena <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;../TP-HTI/lena.jpg&#34;</span>, <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>lena_f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>float32(lena)
+</span></span><span style="display:flex;"><span>dct_lena <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>dct(lena_f)
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">&#34;./results/lena_dct.jpg&#34;</span>, dct_lena)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>baboon <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;../TP-HTI/baboon.jpg&#34;</span>, <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>baboon_f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>float32(baboon)
+</span></span><span style="display:flex;"><span>dct_baboon <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>dct(baboon_f)
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">&#34;./results/baboon_dct.jpg&#34;</span>, dct_baboon)
 </span></span></code></pre></div><pre><code>True
-</code></pre><p>Now let&rsquo;s apply the Inverse Discrete Cosine Transform (IDCT) which is the reverse process of the DCT : It converts frequency domain representations back into the original spatial domain.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>idct_lena <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>idct(dct_lena)
-</span></span><span style=display:flex><span>idct_lena <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>uint8(idct_lena)
-</span></span><span style=display:flex><span>cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>&#34;./results/lena_idct.jpg&#34;</span>, idct_lena)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>idct_baboon <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>idct(dct_baboon)
-</span></span><span style=display:flex><span>idct_baboon  <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>uint8(idct_baboon )
-</span></span><span style=display:flex><span>cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>&#34;./results/baboon_idct.jpg&#34;</span>, idct_baboon )
+</code></pre>
+<p>Now let&rsquo;s apply the Inverse Discrete Cosine Transform (IDCT) which is the reverse process of the DCT : It converts frequency domain representations back into the original spatial domain.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>idct_lena <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>idct(dct_lena)
+</span></span><span style="display:flex;"><span>idct_lena <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>uint8(idct_lena)
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">&#34;./results/lena_idct.jpg&#34;</span>, idct_lena)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>idct_baboon <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>idct(dct_baboon)
+</span></span><span style="display:flex;"><span>idct_baboon  <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>uint8(idct_baboon )
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">&#34;./results/baboon_idct.jpg&#34;</span>, idct_baboon )
 </span></span></code></pre></div><pre><code>True
-</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>diff_lena <span style=color:#f92672>=</span> lena <span style=color:#f92672>-</span> dct_lena
-</span></span><span style=display:flex><span>diff_baboon <span style=color:#f92672>=</span> baboon <span style=color:#f92672>-</span>dct_baboon
-</span></span><span style=display:flex><span>print(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;The difference between lena and IDCT lena is </span><span style=color:#e6db74>{</span>np<span style=color:#f92672>.</span>max(diff_lena)<span style=color:#e6db74>}</span><span style=color:#e6db74> for the maximal absolute and </span><span style=color:#e6db74>{</span>np<span style=color:#f92672>.</span>min(diff_lena)<span style=color:#e6db74>}</span><span style=color:#e6db74> for the minimal absolute value. &#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>print(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;The difference between baboon and IDCT baboon is </span><span style=color:#e6db74>{</span>np<span style=color:#f92672>.</span>max(diff_baboon)<span style=color:#e6db74>}</span><span style=color:#e6db74> for the maximal absolute and </span><span style=color:#e6db74>{</span>np<span style=color:#f92672>.</span>min(diff_baboon)<span style=color:#e6db74>}</span><span style=color:#e6db74> for the minimal absolute value. &#34;</span>)
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>diff_lena <span style="color:#f92672">=</span> lena <span style="color:#f92672">-</span> dct_lena
+</span></span><span style="display:flex;"><span>diff_baboon <span style="color:#f92672">=</span> baboon <span style="color:#f92672">-</span>dct_baboon
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The difference between lena and IDCT lena is </span><span style="color:#e6db74">{</span>np<span style="color:#f92672">.</span>max(diff_lena)<span style="color:#e6db74">}</span><span style="color:#e6db74"> for the maximal absolute and </span><span style="color:#e6db74">{</span>np<span style="color:#f92672">.</span>min(diff_lena)<span style="color:#e6db74">}</span><span style="color:#e6db74"> for the minimal absolute value. &#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;The difference between baboon and IDCT baboon is </span><span style="color:#e6db74">{</span>np<span style="color:#f92672">.</span>max(diff_baboon)<span style="color:#e6db74">}</span><span style="color:#e6db74"> for the maximal absolute and </span><span style="color:#e6db74">{</span>np<span style="color:#f92672">.</span>min(diff_baboon)<span style="color:#e6db74">}</span><span style="color:#e6db74"> for the minimal absolute value. &#34;</span>)
 </span></span></code></pre></div><pre><code>The difference between lena and IDCT lena is 5380.279296875 for the maximal absolute and -63353.06640625 for the minimal absolute value. 
 The difference between baboon and IDCT baboon is 4685.52001953125 for the maximal absolute and -65976.203125 for the minimal absolute value. 
-</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>
-</span></span><span style=display:flex><span>image_dct_lena <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>imread(<span style=color:#e6db74>&#34;./results/baboon_dct.jpg&#34;</span>,<span style=color:#ae81ff>0</span>)
-</span></span><span style=display:flex><span>print(np<span style=color:#f92672>.</span>max(image_dct_lena))
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>plt<span style=color:#f92672>.</span>imshow(image_dct_lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>image_dct_lena <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;./results/baboon_dct.jpg&#34;</span>,<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>print(np<span style="color:#f92672">.</span>max(image_dct_lena))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(image_dct_lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
 </span></span></code></pre></div><pre><code>255
 
 
@@ -55,150 +669,554 @@ The difference between baboon and IDCT baboon is 4685.52001953125 for the maxima
 
 
 &lt;matplotlib.image.AxesImage at 0x1792de1d0&gt;
-</code></pre><p><img src=tp2_files/tp2_10_2.png alt=png></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>5</span>))
-</span></span><span style=display:flex><span>image_dct_lena <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>imread(<span style=color:#e6db74>&#34;./results/lena_dct.jpg&#34;</span>,<span style=color:#ae81ff>0</span>)
-</span></span><span style=display:flex><span>image_dct_baboon <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>imread(<span style=color:#e6db74>&#34;./results/baboon_dct.jpg&#34;</span>,<span style=color:#ae81ff>0</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>imshow(lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#34;Lena image&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>imshow(image_dct_lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#34;Lena DCT image&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>2</span>]<span style=color:#f92672>.</span>imshow(idct_lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>2</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#34;Lena IDCT image&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>imshow(baboon, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#34;Baboon image&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>imshow(image_dct_baboon, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#34;Baboon DCT image&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>2</span>]<span style=color:#f92672>.</span>imshow(idct_baboon, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>2</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#34;Baboon IDCT image&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> ax <span style=color:#f92672>in</span> axes:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> row <span style=color:#f92672>in</span> ax :
-</span></span><span style=display:flex><span>        row<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span></code></pre></div><p><img src=tp2_files/tp2_11_0.png alt=png></p><p>The upper-left corner of the DCT images contains lower-frequency components, representing smoother variations in the original images, such as gradual changes in intensity. Conversely, the lower-right corner contains higher-frequency components, which capture fine details, edges, and rapid transitions. As the Baboon image has more texture, its DCT representation contains more white pixels outside the top left-hand corner.</p><p>After applying IDCT, the images are reconstructed from their frequency components. However, the reconstructed images exhibit differences due to the inevitable loss of information during the DCT transformation and subsequent IDCT reconstruction. Notably, the maximal and minimal absolute differences with the original images reveal imperceptible deteriorations, highlighting the subtle information loss in the transformation process.</p><h3 id=low-pass-filtering>Low pass filtering</h3><p>In this section, we examine the impact of low-pass filtering on our image reconstruction using a low pass filter before performing the IDCT. By varying the cutoff frequency of the filter, we can observe how different levels of filtering influence the reconstructed images.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>cf_list <span style=color:#f92672>=</span> [<span style=color:#ae81ff>2</span><span style=color:#f92672>**</span>i <span style=color:#66d9ef>for</span> i <span style=color:#f92672>in</span> range (<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>9</span>)]
-</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>low_pass_filter</span>(img,fc):
-</span></span><span style=display:flex><span>    img_f <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>float32(img)
-</span></span><span style=display:flex><span>    img_dct <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>dct(img_f)
-</span></span><span style=display:flex><span>    img_dct_lp <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>zeros(img<span style=color:#f92672>.</span>shape)
-</span></span><span style=display:flex><span>    img_dct_lp[:fc,:fc] <span style=color:#f92672>=</span> img_dct[:fc,:fc]
-</span></span><span style=display:flex><span>    img_idct_lp <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>idct(img_dct_lp)
-</span></span><span style=display:flex><span>    img_idct_lp <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>uint8(img_idct_lp)
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> img_idct_lp
-</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>4</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>5</span>))
-</span></span><span style=display:flex><span>fig2,axes2 <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>4</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>5</span>))
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> i, fc <span style=color:#f92672>in</span> enumerate(cf_list) :
-</span></span><span style=display:flex><span>    lena_idct_lp <span style=color:#f92672>=</span> low_pass_filter(lena,fc)
-</span></span><span style=display:flex><span>    cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;./results/lena_idct_lp_fc_</span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>.jpg&#34;</span>, lena_idct_lp)
-</span></span><span style=display:flex><span>    axes[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>) ]<span style=color:#f92672>.</span>imshow(lena_idct_lp, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>    axes[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>)]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Low pass </span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    baboon_idct_lp <span style=color:#f92672>=</span> low_pass_filter(baboon,fc)
-</span></span><span style=display:flex><span>    cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;./results/baboon_idct_lp_fc_</span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>.jpg&#34;</span>, baboon_idct_lp)
-</span></span><span style=display:flex><span>    axes2[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>) ]<span style=color:#f92672>.</span>imshow(baboon_idct_lp, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>    axes2[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>)]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Low pass </span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>imshow(lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Original&#34;</span>)
-</span></span><span style=display:flex><span>axes2[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>imshow(baboon, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes2[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Original&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> row <span style=color:#f92672>in</span> axes:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> ax <span style=color:#f92672>in</span> row:
-</span></span><span style=display:flex><span>        ax<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> row <span style=color:#f92672>in</span> axes2:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> ax <span style=color:#f92672>in</span> row:
-</span></span><span style=display:flex><span>        ax<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span></code></pre></div><p><img src=tp2_files/tp2_17_0.png alt=png></p><p><img src=tp2_files/tp2_17_1.png alt=png></p><p>A low-pass filter allows only lower-frequency components to pass through, smoothing the details of the image.
-Baboon image has more texture than Lena image and its general shape is less detectable than lena at really low fc.</p><h3 id=high-pass-filtering>High pass filtering</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>high_pass_filter</span>(img,fc):
-</span></span><span style=display:flex><span>    img_f <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>float32(img)
-</span></span><span style=display:flex><span>    img_dct <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>dct(img_f)
-</span></span><span style=display:flex><span>    img_dct_hp <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>zeros(img<span style=color:#f92672>.</span>shape)
-</span></span><span style=display:flex><span>    high_freq <span style=color:#f92672>=</span> img_dct[fc:,fc:]
-</span></span><span style=display:flex><span>    constant <span style=color:#f92672>=</span>  img_dct[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>0</span>]
-</span></span><span style=display:flex><span>    img_dct_hp[fc:,fc:] <span style=color:#f92672>=</span> high_freq
-</span></span><span style=display:flex><span>    img_dct_hp[<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>0</span>]<span style=color:#f92672>=</span> constant
-</span></span><span style=display:flex><span>    img_idct_hp <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>idct(img_dct_hp)
-</span></span><span style=display:flex><span>    img_idct_hp <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>uint8(img_idct_hp)
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> img_idct_hp
-</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>4</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>5</span>))
-</span></span><span style=display:flex><span>fig2,axes2 <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>4</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>5</span>))
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> i, fc <span style=color:#f92672>in</span> enumerate(cf_list) :
-</span></span><span style=display:flex><span>    lena_idct_hp <span style=color:#f92672>=</span> high_pass_filter(lena,fc)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;./results/lena_idct_hp_fc_</span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>.jpg&#34;</span>, lena_idct_hp)
-</span></span><span style=display:flex><span>    axes[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>) ]<span style=color:#f92672>.</span>imshow(lena_idct_hp, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>    axes[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>)]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;High pass </span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    baboon_idct_hp <span style=color:#f92672>=</span> high_pass_filter(baboon,fc)
-</span></span><span style=display:flex><span>    cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;./results/baboon_idct_hp_fc_</span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>.jpg&#34;</span>, baboon_idct_hp)
-</span></span><span style=display:flex><span>    axes2[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>) ]<span style=color:#f92672>.</span>imshow(baboon_idct_hp, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>    axes2[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>)]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;High pass </span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>imshow(lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Original&#34;</span>)
-</span></span><span style=display:flex><span>axes2[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>imshow(baboon, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes2[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Original&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> row <span style=color:#f92672>in</span> axes:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> ax <span style=color:#f92672>in</span> row:
-</span></span><span style=display:flex><span>        ax<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> row <span style=color:#f92672>in</span> axes2:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> ax <span style=color:#f92672>in</span> row:
-</span></span><span style=display:flex><span>        ax<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span></code></pre></div><p><img src=tp2_files/tp2_21_0.png alt=png></p><p><img src=tp2_files/tp2_21_1.png alt=png></p><p>The high pass filtering emphasizes the finer details and edge of the images such as the fur of the baboon. However, when the cutoff frequency (fc) is too high, it leads to significant information loss in the images and the filtered images may appear mostly gray.</p><h3 id=illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content>Illustrating how the spatial DCT frequencies are related the visual content</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>combined_image</span>(image_lf, image_hf, fc):
-</span></span><span style=display:flex><span>    image_lf <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>float32(image_lf)
-</span></span><span style=display:flex><span>    image_hf <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>float32(image_hf)
-</span></span><span style=display:flex><span>    dct_lf <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>dct(image_lf)
-</span></span><span style=display:flex><span>    dct_hf <span style=color:#f92672>=</span> cv2<span style=color:#f92672>.</span>dct(image_hf)
-</span></span><span style=display:flex><span>    dct_lf[fc:, fc:] <span style=color:#f92672>=</span> dct_hf[fc:, fc:]
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> cv2<span style=color:#f92672>.</span>idct(dct_lf)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>lena_baboon_32 <span style=color:#f92672>=</span> combined_image(lena,baboon,<span style=color:#ae81ff>32</span>)
-</span></span><span style=display:flex><span>plt<span style=color:#f92672>.</span>imshow(lena_baboon_32, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>plt<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span><span style=display:flex><span>plt<span style=color:#f92672>.</span>show()
-</span></span></code></pre></div><p><img src=tp2_files/tp2_24_0.png alt=png></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>4</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>5</span>))
-</span></span><span style=display:flex><span>fig2,axes2 <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>4</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>5</span>))
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> i, fc <span style=color:#f92672>in</span> enumerate(cf_list) :
-</span></span><span style=display:flex><span>    lena_baboon <span style=color:#f92672>=</span> combined_image(lena,baboon,fc)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;./results/lena_baboon_</span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>.jpg&#34;</span>, lena_baboon)
-</span></span><span style=display:flex><span>    axes[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>) ]<span style=color:#f92672>.</span>imshow(lena_baboon, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>    axes[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>)]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Lena Baboon </span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    baboon_lena <span style=color:#f92672>=</span> combined_image(baboon,lena,fc)
-</span></span><span style=display:flex><span>    cv2<span style=color:#f92672>.</span>imwrite(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;./results/baboon_lena_</span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>.jpg&#34;</span>, baboon_lena)
-</span></span><span style=display:flex><span>    axes2[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>) ]<span style=color:#f92672>.</span>imshow(baboon_lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>    axes2[i <span style=color:#f92672>//</span> <span style=color:#ae81ff>4</span>, (i <span style=color:#f92672>%</span> <span style=color:#ae81ff>4</span>)]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Baboon Lena </span><span style=color:#e6db74>{</span>fc<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>imshow(lena, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Lena&#34;</span>)
-</span></span><span style=display:flex><span>axes2[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>imshow(baboon, cmap<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;gray&#39;</span>)
-</span></span><span style=display:flex><span>axes2[<span style=color:#ae81ff>1</span>][<span style=color:#ae81ff>3</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Baboon&#34;</span>)
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> row <span style=color:#f92672>in</span> axes:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> ax <span style=color:#f92672>in</span> row:
-</span></span><span style=display:flex><span>        ax<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> row <span style=color:#f92672>in</span> axes2:
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> ax <span style=color:#f92672>in</span> row:
-</span></span><span style=display:flex><span>        ax<span style=color:#f92672>.</span>axis(<span style=color:#e6db74>&#39;off&#39;</span>)
-</span></span></code></pre></div><p><img src=tp2_files/tp2_25_0.png alt=png></p><p><img src=tp2_files/tp2_25_1.png alt=png></p><p>Lena_baboon – obtained by considering the lower frequencies from Lena and the higher frequencies from Baboon</p><p>Baboon_lena – obtained by considering the lower frequencies from Baboon and the higher frequencies from Lena</p><p>Therefore images can be decomposed into various frequency components, with low-frequency components capturing large-scale features and high-frequency components representing fine details. Manipulating the DCT coefficients have a direct impact on the visual content of images, allowing us to create new visual compositions by combining frequency characteristics from the different images.</p></div><div class="row pl-3 pr-3"><div class="col-md-6 share-buttons"><strong>Share on:</strong>
-<a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmelaniebrg.github.io%2fposts%2fdcp%2ffiltering-lab%2f" target=_blank><i class="fab fa-facebook"></i></a>
-<a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fmelaniebrg.github.io%2fposts%2fdcp%2ffiltering-lab%2f&text=2D%20Image%20filtering%20Lab&via=M%c3%a9lanie%20Br%c3%a9gou" target=_blank><i class="fab fa-twitter"></i></a>
-<a class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fmelaniebrg.github.io%2fposts%2fdcp%2ffiltering-lab%2f&title=2D%20Image%20filtering%20Lab" target=_blank><i class="fab fa-reddit"></i></a>
-<a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fmelaniebrg.github.io%2fposts%2fdcp%2ffiltering-lab%2f&title=2D%20Image%20filtering%20Lab" target=_blank><i class="fab fa-linkedin"></i></a>
-<a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=2D%20Image%20filtering%20Lab https%3a%2f%2fmelaniebrg.github.io%2fposts%2fdcp%2ffiltering-lab%2f" target=_blank><i class="fab fa-whatsapp"></i></a>
-<a class="btn btn-sm email-btn" href="mailto:?subject=2D%20Image%20filtering%20Lab&body=https%3a%2f%2fmelaniebrg.github.io%2fposts%2fdcp%2ffiltering-lab%2f" target=_blank><i class="fas fa-envelope-open-text"></i></a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/posts/dcp/encryption-lab/ title="Illustrations on image encryption and steganography Lab" class="btn btn-outline-info"><div><i class="fas fa-chevron-circle-left"></i> Prev</div><div class=next-prev-text>Illustrations on image encryption and steganography Lab</div></a></div><div class="col-md-6 next-article"><a href=/posts/dcp/watermarking-lab/ title="Spread Spectrum Watermarking Lab" class="btn btn-outline-info"><div>Next <i class="fas fa-chevron-circle-right"></i></div><div class=next-prev-text>Spread Spectrum Watermarking Lab</div></a></div></div><hr></div></div></div><a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center pl-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><ul><li><a href=#table-of-contents>Table of Contents</a></li><li><a href=#compute-the-2d-dct-for-the-images>Compute the 2D-DCT for the images</a></li><li><a href=#low-pass-filtering>Low pass filtering</a></li><li><a href=#high-pass-filtering>High pass filtering</a></li><li><a href=#illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content>Illustrating how the spatial DCT frequencies are related the visual content</a></li></ul></li></ul></nav></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://melaniebrg.github.io#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://melaniebrg.github.io#skills>Skills</a></li><li class=nav-item><a class=smooth-scroll href=https://melaniebrg.github.io#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://melaniebrg.github.io#education>Education</a></li><li class=nav-item><a class=smooth-scroll href=https://melaniebrg.github.io#projects>Projects</a></li><li class=nav-item><a class=smooth-scroll href=https://melaniebrg.github.io#recent-posts>Recent Posts</a></li><li class=nav-item><a class=smooth-scroll href=https://melaniebrg.github.io#achievements>Achievements</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:melanie.bregou92@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>melanie.bregou92@gmail.com</span></a></li><li><a href=https://github.com/MelanieBrg target=_blank rel=noopener><span><i class="fab fa-github"></i></span> <span>MelanieBrg</span></a></li><li><a href=https://www.linkedin.com/in/M%c3%a9lanie%20Br%c3%a9gou target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>Mélanie Brégou</span></a></li></ul></div></div></div><hr><div class=container><p id=disclaimer><strong>Liability Notice:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
-Toha</a></div><div class="col-md-4 text-center">© 2020 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
-<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script src=/application.992c79322f26d0e9437f87bb5fd8e23616cf46895eaa555240c1c83d31654f90.js integrity="sha256-mSx5Mi8m0OlDf4e7X9jiNhbPRoleqlVSQMHIPTFlT5A=" defer></script></body></html>
+</code></pre>
+<p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_10_2.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>image_dct_lena <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;./results/lena_dct.jpg&#34;</span>,<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>image_dct_baboon <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;./results/baboon_dct.jpg&#34;</span>,<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>imshow(lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#34;Lena image&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>imshow(image_dct_lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#34;Lena DCT image&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">2</span>]<span style="color:#f92672">.</span>imshow(idct_lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">2</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#34;Lena IDCT image&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>imshow(baboon, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#34;Baboon image&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>imshow(image_dct_baboon, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#34;Baboon DCT image&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">2</span>]<span style="color:#f92672">.</span>imshow(idct_baboon, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">2</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#34;Baboon IDCT image&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> ax <span style="color:#f92672">in</span> axes:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> ax :
+</span></span><span style="display:flex;"><span>        row<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span></code></pre></div><p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_11_0.png" alt="png"></p>
+<p>The upper-left corner of the DCT images contains lower-frequency components, representing smoother variations in the original images, such as gradual changes in intensity. Conversely, the lower-right corner contains higher-frequency components, which capture fine details, edges, and rapid transitions. As the Baboon image has more texture, its DCT representation contains more white pixels outside the top left-hand corner.</p>
+<p>After applying IDCT, the images are reconstructed from their frequency components. However, the reconstructed images exhibit differences due to the inevitable loss of information during the DCT transformation and subsequent IDCT reconstruction. Notably, the maximal and minimal absolute differences with the original images reveal imperceptible deteriorations, highlighting the subtle information loss in the transformation process.</p>
+<h3 id="low-pass-filtering">Low pass filtering</h3>
+<p>In this section, we examine the impact of low-pass filtering on our image reconstruction using a low pass filter before performing the IDCT. By varying the cutoff frequency of the filter, we can observe how different levels of filtering influence the reconstructed images.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>cf_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">2</span><span style="color:#f92672">**</span>i <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range (<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">9</span>)]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">low_pass_filter</span>(img,fc):
+</span></span><span style="display:flex;"><span>    img_f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>float32(img)
+</span></span><span style="display:flex;"><span>    img_dct <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>dct(img_f)
+</span></span><span style="display:flex;"><span>    img_dct_lp <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(img<span style="color:#f92672">.</span>shape)
+</span></span><span style="display:flex;"><span>    img_dct_lp[:fc,:fc] <span style="color:#f92672">=</span> img_dct[:fc,:fc]
+</span></span><span style="display:flex;"><span>    img_idct_lp <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>idct(img_dct_lp)
+</span></span><span style="display:flex;"><span>    img_idct_lp <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>uint8(img_idct_lp)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> img_idct_lp
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>fig2,axes2 <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i, fc <span style="color:#f92672">in</span> enumerate(cf_list) :
+</span></span><span style="display:flex;"><span>    lena_idct_lp <span style="color:#f92672">=</span> low_pass_filter(lena,fc)
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;./results/lena_idct_lp_fc_</span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">.jpg&#34;</span>, lena_idct_lp)
+</span></span><span style="display:flex;"><span>    axes[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>) ]<span style="color:#f92672">.</span>imshow(lena_idct_lp, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>)]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Low pass </span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    baboon_idct_lp <span style="color:#f92672">=</span> low_pass_filter(baboon,fc)
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;./results/baboon_idct_lp_fc_</span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">.jpg&#34;</span>, baboon_idct_lp)
+</span></span><span style="display:flex;"><span>    axes2[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>) ]<span style="color:#f92672">.</span>imshow(baboon_idct_lp, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes2[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>)]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Low pass </span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>imshow(lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Original&#34;</span>)
+</span></span><span style="display:flex;"><span>axes2[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>imshow(baboon, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes2[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Original&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> axes:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ax <span style="color:#f92672">in</span> row:
+</span></span><span style="display:flex;"><span>        ax<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> axes2:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ax <span style="color:#f92672">in</span> row:
+</span></span><span style="display:flex;"><span>        ax<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span></code></pre></div><p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_17_0.png" alt="png"></p>
+<p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_17_1.png" alt="png"></p>
+<p>A low-pass filter allows only lower-frequency components to pass through, smoothing the details of the image.
+Baboon image has more texture than Lena image and its general shape is less detectable than lena at really low fc.</p>
+<h3 id="high-pass-filtering">High pass filtering</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">high_pass_filter</span>(img,fc):
+</span></span><span style="display:flex;"><span>    img_f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>float32(img)
+</span></span><span style="display:flex;"><span>    img_dct <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>dct(img_f)
+</span></span><span style="display:flex;"><span>    img_dct_hp <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(img<span style="color:#f92672">.</span>shape)
+</span></span><span style="display:flex;"><span>    high_freq <span style="color:#f92672">=</span> img_dct[fc:,fc:]
+</span></span><span style="display:flex;"><span>    constant <span style="color:#f92672">=</span>  img_dct[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>    img_dct_hp[fc:,fc:] <span style="color:#f92672">=</span> high_freq
+</span></span><span style="display:flex;"><span>    img_dct_hp[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">=</span> constant
+</span></span><span style="display:flex;"><span>    img_idct_hp <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>idct(img_dct_hp)
+</span></span><span style="display:flex;"><span>    img_idct_hp <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>uint8(img_idct_hp)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> img_idct_hp
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>fig2,axes2 <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i, fc <span style="color:#f92672">in</span> enumerate(cf_list) :
+</span></span><span style="display:flex;"><span>    lena_idct_hp <span style="color:#f92672">=</span> high_pass_filter(lena,fc)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;./results/lena_idct_hp_fc_</span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">.jpg&#34;</span>, lena_idct_hp)
+</span></span><span style="display:flex;"><span>    axes[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>) ]<span style="color:#f92672">.</span>imshow(lena_idct_hp, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>)]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;High pass </span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    baboon_idct_hp <span style="color:#f92672">=</span> high_pass_filter(baboon,fc)
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;./results/baboon_idct_hp_fc_</span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">.jpg&#34;</span>, baboon_idct_hp)
+</span></span><span style="display:flex;"><span>    axes2[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>) ]<span style="color:#f92672">.</span>imshow(baboon_idct_hp, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes2[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>)]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;High pass </span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>imshow(lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Original&#34;</span>)
+</span></span><span style="display:flex;"><span>axes2[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>imshow(baboon, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes2[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Original&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> axes:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ax <span style="color:#f92672">in</span> row:
+</span></span><span style="display:flex;"><span>        ax<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> axes2:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ax <span style="color:#f92672">in</span> row:
+</span></span><span style="display:flex;"><span>        ax<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span></code></pre></div><p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_21_0.png" alt="png"></p>
+<p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_21_1.png" alt="png"></p>
+<p>The high pass filtering emphasizes the finer details and edge of the images such as the fur of the baboon. However, when the cutoff frequency (fc) is too high, it leads to significant information loss in the images and the filtered images may appear mostly gray.</p>
+<h3 id="illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content">Illustrating how the spatial DCT frequencies are related the visual content</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">combined_image</span>(image_lf, image_hf, fc):
+</span></span><span style="display:flex;"><span>    image_lf <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>float32(image_lf)
+</span></span><span style="display:flex;"><span>    image_hf <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>float32(image_hf)
+</span></span><span style="display:flex;"><span>    dct_lf <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>dct(image_lf)
+</span></span><span style="display:flex;"><span>    dct_hf <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>dct(image_hf)
+</span></span><span style="display:flex;"><span>    dct_lf[fc:, fc:] <span style="color:#f92672">=</span> dct_hf[fc:, fc:]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> cv2<span style="color:#f92672">.</span>idct(dct_lf)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>lena_baboon_32 <span style="color:#f92672">=</span> combined_image(lena,baboon,<span style="color:#ae81ff">32</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(lena_baboon_32, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_24_0.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>fig2,axes2 <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i, fc <span style="color:#f92672">in</span> enumerate(cf_list) :
+</span></span><span style="display:flex;"><span>    lena_baboon <span style="color:#f92672">=</span> combined_image(lena,baboon,fc)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;./results/lena_baboon_</span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">.jpg&#34;</span>, lena_baboon)
+</span></span><span style="display:flex;"><span>    axes[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>) ]<span style="color:#f92672">.</span>imshow(lena_baboon, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>)]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Lena Baboon </span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    baboon_lena <span style="color:#f92672">=</span> combined_image(baboon,lena,fc)
+</span></span><span style="display:flex;"><span>    cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;./results/baboon_lena_</span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">.jpg&#34;</span>, baboon_lena)
+</span></span><span style="display:flex;"><span>    axes2[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>) ]<span style="color:#f92672">.</span>imshow(baboon_lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>    axes2[i <span style="color:#f92672">//</span> <span style="color:#ae81ff">4</span>, (i <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>)]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Baboon Lena </span><span style="color:#e6db74">{</span>fc<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>imshow(lena, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Lena&#34;</span>)
+</span></span><span style="display:flex;"><span>axes2[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>imshow(baboon, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>axes2[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Baboon&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> axes:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ax <span style="color:#f92672">in</span> row:
+</span></span><span style="display:flex;"><span>        ax<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> axes2:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ax <span style="color:#f92672">in</span> row:
+</span></span><span style="display:flex;"><span>        ax<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span></code></pre></div><p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_25_0.png" alt="png"></p>
+<p><img src="/posts/dcp/filtering-lab/tp2_files/tp2_25_1.png" alt="png"></p>
+<p>Lena_baboon – obtained by considering the lower frequencies from Lena and the higher frequencies from Baboon</p>
+<p>Baboon_lena – obtained by considering the lower frequencies from Baboon and the higher frequencies from Lena</p>
+<p>Therefore images can be decomposed into various frequency components, with low-frequency components capturing large-scale features and high-frequency components representing fine details. Manipulating the DCT coefficients have a direct impact on the visual content of images, allowing us to create new visual compositions by combining frequency characteristics from the different images.</p>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+            <strong>Share on:</strong>
+            
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fdcp%2ffiltering-lab%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fdcp%2ffiltering-lab%2f&text=2D%20Image%20filtering%20Lab&via=M%c3%a9lanie%20Br%c3%a9gou" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fdcp%2ffiltering-lab%2f&title=2D%20Image%20filtering%20Lab" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fdcp%2ffiltering-lab%2f&title=2D%20Image%20filtering%20Lab" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=2D%20Image%20filtering%20Lab http%3a%2f%2flocalhost%3a1313%2fposts%2fdcp%2ffiltering-lab%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn icon-button" href="mailto:?subject=2D%20Image%20filtering%20Lab&body=http%3a%2f%2flocalhost%3a1313%2fposts%2fdcp%2ffiltering-lab%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/posts/dcp/encryption-lab/" title="Illustrations on image encryption and steganography Lab" class="btn filled-button">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Illustrations on image encryption and steganography Lab</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/posts/dcp/watermarking-lab/" title="Spread Spectrum Watermarking Lab" class="btn filled-button">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Spread Spectrum Watermarking Lab</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center ps-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#table-of-contents">Table of Contents</a></li>
+        <li><a href="#compute-the-2d-dct-for-the-images">Compute the 2D-DCT for the images</a></li>
+        <li><a href="#low-pass-filtering">Low pass filtering</a></li>
+        <li><a href="#high-pass-filtering">High pass filtering</a></li>
+        <li><a href="#illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content">Illustrating how the spatial DCT frequencies are related the visual content</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#projects">Projects</a>
+                </li>
+              
+              
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#achievements">Achievements</a>
+                </li>
+              
+            
+              
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:melanie.bregou92@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>melanie.bregou92@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/MelanieBrg target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>MelanieBrg</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/M%c3%a9lanie%20Br%c3%a9gou target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Mélanie Brégou</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    <hr />
+    <div class="container">
+      <p id="disclaimer"><strong>Liability Notice:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu_b3360284c55cf72d.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2020 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.9f3e6662c79d73e8b96bf9517678581816e1a0a4fd7481f94fa4099a815e92df.js" integrity="sha256-nz5mYsedc&#43;i5a/lRdnhYGBbhoKT9dIH5T6QJmoFekt8=" defer></script>
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

@@ -3,11 +3,11 @@ title: "Developing a Rollerball Game in Unity"
 date: 2023-09-30
 description: template
 menu:
-  sidebar:
-    name: Roller Ball Game
-    identifier: unityUI
-    parent: hci
-    weight: 30
+  #sidebar:
+  #  name: Roller Ball Game
+  #  identifier: unityUI
+  #  parent: hci
+  #  weight: 30
 hero: rollerball.png
 author:
   name: Mélanie Brégou 

@@ -3,11 +3,11 @@ title: "Creating a Portfolio Website with Hugo and Deploying on GitHub Pages"
 date: 2023-09-23
 description: Step by step tutorial to set up this website
 menu:
-  sidebar:
-    name: Portfolio Set up
-    identifier: blog
-    parent: hci
-    weight: 10
+  #sidebar:
+  #  name: Portfolio Set up
+  #  identifier: blog
+  #  parent: hci
+  #  weight: 10
 hero: blog.png
 author:
   name: Mélanie Brégou

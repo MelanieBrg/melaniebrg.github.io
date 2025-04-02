@@ -2,12 +2,12 @@
 title: "Unity Installation"
 date: 2023-09-30
 description: 
-menu:
-  sidebar:
-    name: Unity installation
-    identifier: unity_install
-    parent: hci
-    weight: 30
+#menu:
+  #sidebar:
+  #  name: Unity installation
+  #  identifier: unity_install
+  #  parent: hci
+  #  weight: 30
 hero: unityinstall.png
 author:
   name: Mélanie Brégou 

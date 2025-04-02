@@ -1,3 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hololens on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/hololens/</link><description>Recent content in hololens on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/hololens/index.xml" rel="self" type="application/rss+xml"/><item><title>Snow sleigh game on Hololens2</title><link>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</guid><description>Introducing our AR game circuit developed using Unity3D and MRTK3 for HoloLens 2. This project was brought to life through a collaborative effort between myself and Pauline Spinga.
-Here are the key steps of the project:
-Design In designing the circuit within a ski station environment, we sourced various models from free3D, turbosquid, and sketchfab websites. Additionally, we crafted a custom panel featuring our school logo. All elements were assembled in Blender, with additional snow textures for ambiance.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hololens on Mélanie Brégou</title>
+    <link>http://localhost:1313/categories/hololens/</link>
+    <description>Recent content in Hololens on Mélanie Brégou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/hololens/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Snow sleigh game on Hololens2</title>
+      <link>http://localhost:1313/posts/ar-vr/sleigh-ar/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/ar-vr/sleigh-ar/</guid>
+      <description>&lt;p&gt;Introducing our AR game circuit developed using Unity3D and MRTK3 for HoloLens 2. This project was brought to life through a collaborative effort between myself and Pauline Spinga.&lt;/p&gt;
+&lt;p&gt;Here are the key steps of the project:&lt;/p&gt;
+&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
+&lt;p&gt;In designing the circuit within a ski station environment, we sourced various models from free3D, turbosquid, and sketchfab websites. Additionally, we crafted a custom panel featuring our school logo. All elements were assembled in Blender, with additional snow textures for ambiance.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -3,11 +3,11 @@ title: "Ubiquitous Computing: A Vision and Reality"
 date: 2023-10-31
 description: 
 menu:
-  sidebar:
-    name: Ubiquitous Computing
-    identifier: ubiquitous
-    parent: hci
-    weight: 30
+  #sidebar:
+  #  name: Ubiquitous Computing
+  #  identifier: ubiquitous
+  #  parent: hci
+  #  weight: 30
 hero: ubi.png
 author:
   name: Mélanie Brégou 

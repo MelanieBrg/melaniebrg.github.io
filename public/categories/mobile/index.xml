@@ -1,3 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mobile on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/mobile/</link><description>Recent content in mobile on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>Tap to Place App</title><link>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</guid><description>In the context of our AR course at Institut Polytechnique de Paris, we were asked to develop a mobile application with AR Foundation in Unity to place object on the ground by taping its desired place on the screen.
-Your browser does not support the video tag. Here are the different steps of the project :
-Unity settings In order to make the application work on my Iphone I tried several Unity versions but the one which worked was the 2022.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Mélanie Brégou</title>
+    <link>http://localhost:1313/categories/mobile/</link>
+    <description>Recent content in Mobile on Mélanie Brégou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/mobile/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Tap to Place App</title>
+      <link>http://localhost:1313/posts/ar-vr/tap-to-place/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/ar-vr/tap-to-place/</guid>
+      <description>&lt;p&gt;In the context of our AR course at Institut Polytechnique de Paris, we were asked to develop a mobile application with AR Foundation in Unity to place object on the ground by taping its desired place on the screen.&lt;/p&gt;
+&lt;video width=&#34;640&#34; height=&#34;360&#34; controls&gt;
+  &lt;source src=&#34;tap-to-place.mov&#34; type=&#34;video/quicktime&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;Here are the different steps of the project :&lt;/p&gt;
+&lt;h4 id=&#34;unity-settings&#34;&gt;Unity settings&lt;/h4&gt;
+&lt;p&gt;In order to make the application work on my Iphone I tried several Unity versions but the one which worked was the 2022.3.10f1.
+Then create a new project with AR Mobile Core template&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

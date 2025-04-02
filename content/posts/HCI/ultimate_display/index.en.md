@@ -3,11 +3,11 @@ title: "The Ultimate Display"
 date: 2023-10-10
 description: 
 menu:
-  sidebar:
-    name: The Ultimate Display
-    identifier: ultimate
-    parent: hci
-    weight: 30
+  #sidebar:
+  #  name: The Ultimate Display
+  #  identifier: ultimate
+  #  parent: hci
+  #  weight: 30
 hero: display.png
 author:
   name: Mélanie Brégou 

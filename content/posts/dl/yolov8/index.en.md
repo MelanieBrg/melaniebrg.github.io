@@ -3,16 +3,18 @@ title: "Surgical Tool Detection with YOLOv8"
 date: 2024-01-06
 description: Project
 menu:
-  sidebar:
-    name: Surgical tool detection
-    identifier: yolov8
-    parent: dl
-    weight: 35
+  #sidebar:
+  #  name: Surgical tool detection
+  #  identifier: yolov8
+  #  parent: dl
+  #  weight: 35
 #tags: ["unity","game"]
 hero: front.png
 categories: ["ia","project", "yolo", "detection", "health"]
 
 draft: true
+show: false 
+hide: true
 
 
 ---

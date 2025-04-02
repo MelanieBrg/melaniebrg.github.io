@@ -10,24 +10,24 @@ section:
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
-
+#buttons:
+#- name: All
+#  filter: "all"
+#- name: Basic
+#  filter: "basic"
+#- name: Language
+#  filter: "language"
+#- name: Container
+#  filter: "container"
+#- name: Others
+#  filter: "others"
+#
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "OpenCV - Scikit learn - Tensorflow - Pytorch - Matplotlib - Streamlit"
+  summary: "OpenCV - Scikit learn - Tensorflow - Pytorch - Matplotlib - Streamlit - ..."
   url: "https://www.python.org"
 
 - name: Linux and MacOs
@@ -42,7 +42,7 @@ skills:
 
 
 - name: C++
-  logo: /images/sections/skills/unity.png
+  logo: /images/sections/skills/cpp.png
   summary: "Integration of deep learning model in ultrasound device using C++."
   #url: "#"
 
@@ -62,9 +62,9 @@ skills:
   logo: /images/sections/skills/unity.png
   summary: "Unity development with proficiency in creating interactive 3D experiences. Familiar with Unity's game object hierarchy, scripting in C#, implementing game mechanics and user interfaces. Capable of building applications for various platforms including computers, mobile devices, AR (HoloLens and Magic Leap 2), and VR headsets (Meta Quest 2)."
   #url: "#"
-- name: Web Development
-  logo: /images/sections/skills/Typescript_logo.png
-  summary: "Developing a full-stack SaaS platform using Next.js 13, React, Tailwind CSS, Prisma, and tRPC, with integrated authentication services (Firebase)"
+#- name: Web Development
+#  logo: /images/sections/skills/Typescript_logo.png
+#  summary: "Developing a full-stack SaaS platform using Next.js 13, React, Tailwind CSS, Prisma, and tRPC, with integrated authentication services (Firebase)"
 
 - name: Blender
   logo: /images/sections/skills/blender.png

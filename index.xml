@@ -1,22 +1,357 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mélanie Brégou</title><link>https://melaniebrg.github.io/</link><description>Recent content on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Escape Game in VR</title><link>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</guid><description>Discover our virtual reality (VR) escape game, crafted by Mélanie Brégou and Pauline Spinga. Inspired by fantastic universes and Unity Store&amp;rsquo;s Escape Room assets, we have developed original enigmas: from recreating melodies to assembling puzzles, all to unravel clues for escaping our magical-themed house.
-Set Up To begin our VR game development journey, we meticulously set up our project environment in Unity. Here&amp;rsquo;s a step-by-step guide on how we initiated the project:</description></item><item><title>Snow sleigh game on Hololens2</title><link>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</guid><description>Introducing our AR game circuit developed using Unity3D and MRTK3 for HoloLens 2. This project was brought to life through a collaborative effort between myself and Pauline Spinga.
-Here are the key steps of the project:
-Design In designing the circuit within a ski station environment, we sourced various models from free3D, turbosquid, and sketchfab websites. Additionally, we crafted a custom panel featuring our school logo. All elements were assembled in Blender, with additional snow textures for ambiance.</description></item><item><title>Blockchain Application in Royalty Management for Digital Content Protection</title><link>https://melaniebrg.github.io/posts/dcp/blockchain-project/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/blockchain-project/</guid><description>In collaboration with Kanita Loisy and Pauline Spinga, I delved into a project focusing on the application of blockchain technology in royalty management for the course &amp;ldquo;Digital Content Protection&amp;rdquo; . As the digitization of resources continues to proliferate, the need for robust protection mechanisms has become increasingly apparent. Our project aimed to explore how blockchain could revolutionize the management of intellectual property rights, particularly in the realm of visual content.</description></item><item><title>Tap to Place App</title><link>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</guid><description>In the context of our AR course at Institut Polytechnique de Paris, we were asked to develop a mobile application with AR Foundation in Unity to place object on the ground by taping its desired place on the screen.
-Your browser does not support the video tag. Here are the different steps of the project :
-Unity settings In order to make the application work on my Iphone I tried several Unity versions but the one which worked was the 2022.</description></item><item><title>Spread Spectrum Watermarking Lab</title><link>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 27/10/2023 Objective : Implement a spread spectrum watermarking method, with a focus on utilizing off-the-shelf random number generators, understanding the principles of uniform and Gaussian distributed generators, exploring correlation functions, and applying these concepts towards CDMA-based watermarking.
-Table of Contents Off-the-Shelf Random Number Generators Principles Uniform Distributed Generator Gaussian Distributed Generator Correlation Functions Graphical Representation and Properties Temporal Autocorrelation Function Cross-Correlation Function Towards CDMA Study the robustness against noise addition CDMA-Based Watermarking Off-the-Shelf Random Number Generators Principles import matplotlib.</description></item><item><title>2D Image filtering Lab</title><link>https://melaniebrg.github.io/posts/dcp/filtering-lab/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/filtering-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 13/10/2023 Objective : relate the transform representation and its visual impact
-Table of Contents Compute the 2D-DCT for the images Low pass filtering High pass filtering Illustrating how the spatial DCT frequencies are related the visual content Compute the 2D-DCT for the images The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain.</description></item><item><title>3D platform game Unity</title><link>https://melaniebrg.github.io/posts/cg/unity-project/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/cg/unity-project/</guid><description>Introduction After a 12-hour class at the Institut Polytechnique de Paris, where we explored the fundamentals of Unity, Pauline Spinga and I embarked on a creative project to model and develop a music-themed platform game named &amp;ldquo;Virtuoso&amp;rdquo;. In this game, players step into the shoes of Vivaldi, a character who has lost his piano and guitar and must embark on a journey through the changing seasons to recover his instruments while collecting musical notes along the way.</description></item><item><title>Illustrations on image encryption and steganography Lab</title><link>https://melaniebrg.github.io/posts/dcp/encryption-lab/</link><pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/encryption-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 06/10/2023 Objective : delve into image encryption and steganography, exploring classical ciphers and digital techniques.
-Table of Contents CAESAR cipher Simple substitution cipher Simple transposition cipher LSB (lowest significant bit) steganography Image compression in JPG Image compression in PNG LSB with 2 significant bit from matplotlib import image import matplotlib.pyplot as plt import numpy as np import random from PIL import Image Firstly, let&amp;rsquo;s display the images used for this lab.</description></item><item><title>Developing a Rollerball Game in Unity</title><link>https://melaniebrg.github.io/posts/hci/simple-unity-project/</link><pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/hci/simple-unity-project/</guid><description>Introduction In this article, I will walk you through the process of developing a rollerball game in Unity, where the player controls a ball on a plane, collecting stars while avoiding red enemies. My game includes both static and shooter enemies, a health system with three lives, and a Game Over screen that allows players to restart or exit the game. Let&amp;rsquo;s dive into the development process step by step.</description></item><item><title>Unity Installation</title><link>https://melaniebrg.github.io/posts/hci/unity-install/</link><pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/hci/unity-install/</guid><description>I installed Unity on Mac M1 sucessfully and in this article I&amp;rsquo;ll provide a brief step-by-step guide on how to install Unity based on Léa Saunier&amp;rsquo;s tutorial.
-Step 1: Download Unity Hub Begin by downloading Unity Hub from https://unity.com/download. Unity Hub acts as a central management tool for your Unity projects and installations.
-Step 2: Connect Your Account/License Open Unity Hub and log in with your Unity account or license to access Unity&amp;rsquo;s features and manage your licenses.</description></item><item><title>Blender project : My guitar in 3D !</title><link>https://melaniebrg.github.io/posts/cg/blender-project/</link><pubDate>Thu, 28 Sep 2023 08:06:25 +0600</pubDate><guid>https://melaniebrg.github.io/posts/cg/blender-project/</guid><description>After a 9-hour introductory class to Blender, I took on the challenge of creating a 3D model of my Taylor 510ce guitar. In this article, I&amp;rsquo;ll walk you through the steps I followed to bring this project to life.
-Gathering Reference image To start, I began by capturing reference photos of my guitar from both side and front angles. I then removed the background of these images using Photoshop and put them as background images on x and y axis in Blender.</description></item><item><title>Creating a Portfolio Website with Hugo and Deploying on GitHub Pages</title><link>https://melaniebrg.github.io/posts/hci/blog-creation/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/hci/blog-creation/</guid><description>As part of my Human-Computer Interface class, I was tasked with creating a blog to showcase my work during my master&amp;rsquo;s program. I opted to build my website using Hugo, a fast and modern static site generator. In this guide, I will walk you through the steps to set up your own portfolio website using Hugo and deploy it on GitHub Pages.
-Here are the different steps to set up this portfolio :</description></item><item><title>Introduction</title><link>https://melaniebrg.github.io/posts/introduction/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/introduction/</guid><description>Welcome to the blog section of my portfolio website, where I present some of my work, projects, and experiments in:
-Deep Leaning AR/VR Computer Graphics Digital Content Protection</description></item><item><title>Achieving robust segmentation of lung regions in CT images irrespective to pathology</title><link>https://melaniebrg.github.io/posts/dl/lung-segmentation/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dl/lung-segmentation/</guid><description>For this research project, I collaborated with Clarisse Nouet and Clara Stavun under the supervision of Catalin Fetita, Noureddine Khiati and Antoine Didier from ARTEMIS departement.
-Introduction Context and Problem Statement Infiltrative Lung Pathologies Infiltrative lung diseases manifest as a progressive disintegration of lung tissues, resulting in impaired functioning. They can obstruct up to 40%, as depicted in the following images, representing lungs affected by IIP (fibrosis), Covid-19, and ARDS (consolidations).</description></item><item><title>Go বেসিক</title><link>https://melaniebrg.github.io/notes/go/basic/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/basic/_index.bn/</guid><description/></item><item><title>Introduction</title><link>https://melaniebrg.github.io/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/basic/introduction/</guid><description> Hello World A sample go program is show here.
-package main import &amp;#34;fmt&amp;#34; func main() { message := greetMe(&amp;#34;world&amp;#34;) fmt.Println(message) } func greetMe(name string) string { return &amp;#34;Hello, &amp;#34; + name + &amp;#34;!&amp;#34; } Run the program as below:
-$ go run hello.go Variables Normal Declaration:
-var msg string msg = &amp;#34;Hello&amp;#34; Shortcut:
-msg := &amp;#34;Hello&amp;#34; Constants const Phi = 1.618</description></item><item><title>Basic Types</title><link>https://melaniebrg.github.io/notes/go/basic/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/basic/types/</guid><description>Strings str := &amp;#34;Hello&amp;#34; Multiline string
-str := `Multiline string` Numbers Typical types
-num := 3 // int num := 3. // float64 num := 3 + 4i // complex128 num := byte(&amp;#39;a&amp;#39;) // byte (alias for uint8) Other Types
-var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays // var numbers [5]int numbers := [...]int{0, 0, 0, 0, 0} Pointers func main () { b := *getPointer() fmt.</description></item><item><title>অ্যাডভান্সড</title><link>https://melaniebrg.github.io/notes/go/advanced/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/advanced/_index.bn/</guid><description/></item><item><title>Flow Control</title><link>https://melaniebrg.github.io/notes/go/basic/flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/basic/flow-control/</guid><description>Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) Switch switch day { case &amp;#34;sunday&amp;#34;: // cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default! fallthrough case &amp;#34;saturday&amp;#34;: rest() default: work() } Loop for count := 0; count &amp;lt;= 10; count++ { fmt.Println(&amp;#34;My counter is at&amp;#34;, count) } entry := []string{&amp;#34;Jack&amp;#34;,&amp;#34;John&amp;#34;,&amp;#34;Jones&amp;#34;} for i, val := range entry { fmt.</description></item><item><title>File Manipulation</title><link>https://melaniebrg.github.io/notes/go/advanced/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/advanced/files/</guid><description> Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;)</description></item><item><title>Bash Variables</title><link>https://melaniebrg.github.io/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/bash/basic/</guid><description> Variable NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME} Condition if [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi</description></item><item><title>Go এর নোট সমূহ</title><link>https://melaniebrg.github.io/notes/go/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/_index.bn/</guid><description>Go Notes</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mélanie Brégou</title><link>https://melaniebrg.github.io/</link><description>Recent content on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Escape Game in VR</title><link>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</guid><description>&lt;p>Discover our virtual reality (VR) escape game, crafted by Mélanie Brégou and Pauline Spinga.
+Inspired by fantastic universes and Unity Store&amp;rsquo;s Escape Room assets, we have developed original enigmas: from recreating melodies to assembling puzzles, all to unravel clues for escaping our magical-themed house.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Up3RjfBAd6I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="set-up">Set Up&lt;/h2>
+&lt;p>To begin our VR game development journey, we meticulously set up our project environment in Unity. Here&amp;rsquo;s a step-by-step guide on how we initiated the project:&lt;/p></description></item><item><title>Snow sleigh game on Hololens2</title><link>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</guid><description>&lt;p>Introducing our AR game circuit developed using Unity3D and MRTK3 for HoloLens 2. This project was brought to life through a collaborative effort between myself and Pauline Spinga.&lt;/p>
+&lt;p>Here are the key steps of the project:&lt;/p>
+&lt;h3 id="design">Design&lt;/h3>
+&lt;p>In designing the circuit within a ski station environment, we sourced various models from free3D, turbosquid, and sketchfab websites. Additionally, we crafted a custom panel featuring our school logo. All elements were assembled in Blender, with additional snow textures for ambiance.&lt;/p></description></item><item><title>Blockchain Application in Royalty Management for Digital Content Protection</title><link>https://melaniebrg.github.io/posts/dcp/blockchain-project/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/blockchain-project/</guid><description>&lt;p>In collaboration with Kanita Loisy and Pauline Spinga, I delved into a project focusing on the application of blockchain technology in royalty management for the course &amp;ldquo;Digital Content Protection&amp;rdquo; . As the digitization of resources continues to proliferate, the need for robust protection mechanisms has become increasingly apparent. Our project aimed to explore how blockchain could revolutionize the management of intellectual property rights, particularly in the realm of visual content.&lt;/p></description></item><item><title>Tap to Place App</title><link>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</guid><description>&lt;p>In the context of our AR course at Institut Polytechnique de Paris, we were asked to develop a mobile application with AR Foundation in Unity to place object on the ground by taping its desired place on the screen.&lt;/p>
+&lt;video width="640" height="360" controls>
+&lt;source src="tap-to-place.mov" type="video/quicktime">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;p>Here are the different steps of the project :&lt;/p>
+&lt;h4 id="unity-settings">Unity settings&lt;/h4>
+&lt;p>In order to make the application work on my Iphone I tried several Unity versions but the one which worked was the 2022.3.10f1.
+Then create a new project with AR Mobile Core template&lt;/p></description></item><item><title>Spread Spectrum Watermarking Lab</title><link>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Course&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Mélanie Brégou&lt;/td>
+&lt;td>Digital content protection&lt;/td>
+&lt;td>27/10/2023&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Objective :&lt;/strong> Implement a spread spectrum watermarking method, with a focus on utilizing off-the-shelf random number generators, understanding the principles of uniform and Gaussian distributed generators, exploring correlation functions, and applying these concepts towards CDMA-based watermarking.&lt;/p>
+&lt;h3 id="table-of-contents">Table of Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#off-the-shelf-random-number-generators">Off-the-Shelf Random Number Generators&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#principles">Principles&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#uniform-distributed-generators">Uniform Distributed Generator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="###Gaussian-Distributed-Generators">Gaussian Distributed Generator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#correlation-functions">Correlation Functions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#graphical-representation-and-properties">Graphical Representation and Properties&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#temporal-autocorrelation-function">Temporal Autocorrelation Function&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cross-correlation-function">Cross-Correlation Function&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#towards-cdma">Towards CDMA&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#study-the-robustness-against-noise-addition">Study the robustness against noise addition&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#cdma-based-watermarking">CDMA-Based Watermarking&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="off-the-shelf-random-number-generators">Off-the-Shelf Random Number Generators&lt;/h2>
+&lt;h3 id="principles">Principles&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> matplotlib.pyplot &lt;span style="color:#66d9ef">as&lt;/span> plt
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> random
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> numpy &lt;span style="color:#66d9ef">as&lt;/span> np
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>We define the LCG (linear congruential generator) function : xn = (a * xn-1 + b) mod c,&lt;/p></description></item><item><title>2D Image filtering Lab</title><link>https://melaniebrg.github.io/posts/dcp/filtering-lab/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/filtering-lab/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Course&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Mélanie Brégou&lt;/td>
+&lt;td>Digital content protection&lt;/td>
+&lt;td>13/10/2023&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Objective :&lt;/strong> relate the transform representation and its visual impact&lt;/p>
+&lt;h3 id="table-of-contents">Table of Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#compute-the-2d-dct-for-the-images">Compute the 2D-DCT for the images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#low-pass-filtering">Low pass filtering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#high-pass-filtering">High pass filtering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content">Illustrating how the spatial DCT frequencies are related the visual content&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="compute-the-2d-dct-for-the-images">Compute the 2D-DCT for the images&lt;/h3>
+&lt;p>The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain. This transformation is a pivotal tool for analyzing the spatial characteristics of images, allowing the separation of high-frequency components (edges or fine details) from low-frequency components (smooth transitions and gradual changes).&lt;/p></description></item><item><title>3D platform game Unity</title><link>https://melaniebrg.github.io/posts/cg/unity-project/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/cg/unity-project/</guid><description>&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>After a 12-hour class at the Institut Polytechnique de Paris, where we explored the fundamentals of Unity, Pauline Spinga and I embarked on a creative project to model and develop a &lt;strong>music-themed platform game named &amp;ldquo;Virtuoso&amp;rdquo;&lt;/strong>. In this game, players step into the shoes of Vivaldi, a character who has lost his piano and guitar and must embark on a journey through the changing seasons to recover his instruments while collecting musical notes along the way.&lt;/p></description></item><item><title>Illustrations on image encryption and steganography Lab</title><link>https://melaniebrg.github.io/posts/dcp/encryption-lab/</link><pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/encryption-lab/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Course&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Mélanie Brégou&lt;/td>
+&lt;td>Digital content protection&lt;/td>
+&lt;td>06/10/2023&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Objective :&lt;/strong> delve into image encryption and steganography, exploring classical ciphers and digital techniques.&lt;/p>
+&lt;h3 id="table-of-contents">Table of Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#caesar-cypher-applied-to-images">CAESAR cipher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#simple-substitution-cipher-applied-to-images">Simple substitution cipher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#simple-transposition-cipher-applied-to-images">Simple transposition cipher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lsb-lowest-significant-bit-steganography">LSB (lowest significant bit) steganography&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#image-compression-in-jpg">Image compression in JPG&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#image-compression-in-png">Image compression in PNG&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lsb-with-2-significant-bit">LSB with 2 significant bit&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> matplotlib &lt;span style="color:#f92672">import&lt;/span> image
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> matplotlib.pyplot &lt;span style="color:#66d9ef">as&lt;/span> plt
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> numpy &lt;span style="color:#66d9ef">as&lt;/span> np
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> random
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> PIL &lt;span style="color:#f92672">import&lt;/span> Image
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Firstly, let&amp;rsquo;s display the images used for this lab.&lt;/p></description></item><item><title>Developing a Rollerball Game in Unity</title><link>https://melaniebrg.github.io/posts/hci/simple-unity-project/</link><pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/hci/simple-unity-project/</guid><description>&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>In this article, I will walk you through the process of developing a rollerball game in Unity, where the player controls a ball on a plane, collecting stars while avoiding red enemies. My game includes both static and shooter enemies, a health system with three lives, and a Game Over screen that allows players to restart or exit the game. Let&amp;rsquo;s dive into the development process step by step.&lt;/p></description></item><item><title>Unity Installation</title><link>https://melaniebrg.github.io/posts/hci/unity-install/</link><pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/hci/unity-install/</guid><description>&lt;p>I installed Unity on Mac M1 sucessfully and in this article I&amp;rsquo;ll provide a brief step-by-step guide on how to install Unity based on Léa Saunier&amp;rsquo;s tutorial.&lt;/p>
+&lt;h5 id="step-1-download-unity-hub">Step 1: Download Unity Hub&lt;/h5>
+&lt;p>Begin by downloading Unity Hub from &lt;a href="https://unity.com/download" target="_blank" rel="noopener">https://unity.com/download&lt;/a>. Unity Hub acts as a central management tool for your Unity projects and installations.&lt;/p>
+&lt;h5 id="step-2-connect-your-accountlicense">Step 2: Connect Your Account/License&lt;/h5>
+&lt;p>Open Unity Hub and log in with your Unity account or license to access Unity&amp;rsquo;s features and manage your licenses.&lt;/p></description></item><item><title>Blender project : My guitar in 3D !</title><link>https://melaniebrg.github.io/posts/cg/blender-project/</link><pubDate>Thu, 28 Sep 2023 08:06:25 +0600</pubDate><guid>https://melaniebrg.github.io/posts/cg/blender-project/</guid><description>&lt;p>After a 9-hour introductory class to Blender, I took on the challenge of creating a 3D model of my Taylor 510ce guitar. In this article, I&amp;rsquo;ll walk you through the steps I followed to bring this project to life.&lt;/p>
+&lt;p>&lt;img src="https://melaniebrg.github.io/posts/cg/blender-project/taylor_guitar.png" alt="Rendered image">&lt;/p>
+&lt;h4 id="gathering-reference-image">Gathering Reference image&lt;/h4>
+&lt;p>To start, I began by capturing reference photos of my guitar from both side and front angles.
+&lt;div class="row">
+&lt;div class="col col-sm-12 col-lg-6">
+&lt;img src="https://melaniebrg.github.io/posts/cg/blender-project/face_guitar.png" alt="face" height="500">
+&lt;/div>
+&lt;div class="col col-sm-12 col-lg-6">
+&lt;img src="https://melaniebrg.github.io/posts/cg/blender-project/side_guitar.png" alt="side" height="500">
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;p>I then removed the background of these images using Photoshop and put them as background images on x and y axis in Blender.&lt;/p></description></item><item><title>Creating a Portfolio Website with Hugo and Deploying on GitHub Pages</title><link>https://melaniebrg.github.io/posts/hci/blog-creation/</link><pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/hci/blog-creation/</guid><description>&lt;p>As part of my Human-Computer Interface class, I was tasked with creating a blog to showcase my work during my master&amp;rsquo;s program. I opted to build my website using Hugo, a fast and modern static site generator. In this guide, I will walk you through the steps to set up your own portfolio website using Hugo and deploy it on GitHub Pages.&lt;/p>
+&lt;p>Here are the different steps to set up this portfolio :&lt;/p></description></item><item><title>Introduction</title><link>https://melaniebrg.github.io/posts/introduction/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/introduction/</guid><description>&lt;p>Welcome to the blog section of my portfolio website, where I present some of my work, &lt;a href="https://melaniebrg.github.io/#projects" target="_blank" rel="noopener">projects&lt;/a>, and experiments in:&lt;/p>
+&lt;ul>
+&lt;li>Deep Leaning&lt;/li>
+&lt;li>AR/VR&lt;/li>
+&lt;li>Computer Graphics&lt;/li>
+&lt;li>Digital Content Protection&lt;/li>
+&lt;/ul></description></item><item><title>Achieving robust segmentation of lung regions in CT images irrespective to pathology</title><link>https://melaniebrg.github.io/posts/dl/lung-segmentation/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dl/lung-segmentation/</guid><description>&lt;p>For this research project, I collaborated with Clarisse Nouet and Clara Stavun under the supervision of Catalin Fetita, Noureddine Khiati and Antoine Didier from ARTEMIS departement.&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;h3 id="context-and-problem-statement">Context and Problem Statement&lt;/h3>
+&lt;h4 id="infiltrative-lung-pathologies">Infiltrative Lung Pathologies&lt;/h4>
+&lt;p>Infiltrative lung diseases manifest as a progressive disintegration of lung tissues, resulting in impaired functioning. They can obstruct up to 40%, as depicted in the following images, representing lungs affected by IIP (fibrosis), Covid-19, and ARDS (consolidations).&lt;/p></description></item><item><title>Introduction</title><link>https://melaniebrg.github.io/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/basic/introduction/</guid><description>&lt;!-- A Sample Program -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Hello World&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>A sample go program is show here.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">message&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">greetMe&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;world&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">message&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">greetMe&lt;/span>(&lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>) &lt;span style="color:#66d9ef">string&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello, &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run the program as below:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ go run hello.go
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Declaring Variables -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Variables&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Normal Declaration:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">msg&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">msg&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Shortcut:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">msg&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Declaring Constants -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Constants&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">Phi&lt;/span> = &lt;span style="color:#ae81ff">1.618&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Basic Types</title><link>https://melaniebrg.github.io/notes/go/basic/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/basic/types/</guid><description>&lt;!-- String Type -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Strings&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">str&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Multiline string&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">str&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#e6db74">`Multiline
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">string`&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Number Types -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Numbers&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Typical types&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span> &lt;span style="color:#75715e">// int&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">3.&lt;/span> &lt;span style="color:#75715e">// float64&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">4i&lt;/span> &lt;span style="color:#75715e">// complex128&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> byte(&lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>) &lt;span style="color:#75715e">// byte (alias for uint8)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other Types&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">u&lt;/span> &lt;span style="color:#66d9ef">uint&lt;/span> = &lt;span style="color:#ae81ff">7&lt;/span> &lt;span style="color:#75715e">// uint (unsigned)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">p&lt;/span> &lt;span style="color:#66d9ef">float32&lt;/span> = &lt;span style="color:#ae81ff">22.7&lt;/span> &lt;span style="color:#75715e">// 32-bit float&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!----------- Arrays ------>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Arrays&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// var numbers [5]int&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">numbers&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> [&lt;span style="color:#f92672">...&lt;/span>]&lt;span style="color:#66d9ef">int&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Pointers -->
+&lt;div class="note-card medium-note">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Pointers&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span> () {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">b&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#a6e22e">getPointer&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Value is&amp;#34;&lt;/span>, &lt;span style="color:#a6e22e">b&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">getPointer&lt;/span> () (&lt;span style="color:#a6e22e">myPointer&lt;/span> &lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">a&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">234&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">a&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> new(&lt;span style="color:#66d9ef">int&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span> = &lt;span style="color:#ae81ff">234&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p></description></item><item><title>Flow Control</title><link>https://melaniebrg.github.io/notes/go/basic/flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/basic/flow-control/</guid><description>&lt;!-- Condition -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Condition&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sunday&amp;#34;&lt;/span> &lt;span style="color:#f92672">||&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;saturday&amp;#34;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">rest&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;monday&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">isTired&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">groan&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">work&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">_&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">doThing&lt;/span>(); &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">nil&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Uh oh&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Switch -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Switch&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">switch&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sunday&amp;#34;&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default!&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">fallthrough&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;saturday&amp;#34;&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">rest&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">default&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">work&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Loop -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Loop&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">count&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; &lt;span style="color:#a6e22e">count&lt;/span> &lt;span style="color:#f92672">&amp;lt;=&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span>; &lt;span style="color:#a6e22e">count&lt;/span>&lt;span style="color:#f92672">++&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;My counter is at&amp;#34;&lt;/span>, &lt;span style="color:#a6e22e">count&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">entry&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span>{&lt;span style="color:#e6db74">&amp;#34;Jack&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;John&amp;#34;&lt;/span>,&lt;span style="color:#e6db74">&amp;#34;Jones&amp;#34;&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span>, &lt;span style="color:#a6e22e">val&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#66d9ef">range&lt;/span> &lt;span style="color:#a6e22e">entry&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;At position %d, the character %s is present\n&amp;#34;&lt;/span>, &lt;span style="color:#a6e22e">i&lt;/span>, &lt;span style="color:#a6e22e">val&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">n&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">x&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">42&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">n&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#a6e22e">x&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">n&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">guess&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>File Manipulation</title><link>https://melaniebrg.github.io/notes/go/advanced/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/go/advanced/files/</guid><description>&lt;!-- Condition -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Condition&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sunday&amp;#34;&lt;/span> &lt;span style="color:#f92672">||&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;saturday&amp;#34;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">rest&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;monday&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">isTired&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">groan&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">work&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">_&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">doThing&lt;/span>(); &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">nil&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Uh oh&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Bash Variables</title><link>https://melaniebrg.github.io/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/notes/bash/basic/</guid><description>&lt;!-- Variable -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Variable&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>NAME&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;John&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo $NAME
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#34;&lt;/span>$NAME&lt;span style="color:#e6db74">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>NAME&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Condition -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Condition&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#f92672">[[&lt;/span> -z &lt;span style="color:#e6db74">&amp;#34;&lt;/span>$string&lt;span style="color:#e6db74">&amp;#34;&lt;/span> &lt;span style="color:#f92672">]]&lt;/span>; &lt;span style="color:#66d9ef">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo &lt;span style="color:#e6db74">&amp;#34;String is empty&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">elif&lt;/span> &lt;span style="color:#f92672">[[&lt;/span> -n &lt;span style="color:#e6db74">&amp;#34;&lt;/span>$string&lt;span style="color:#e6db74">&amp;#34;&lt;/span> &lt;span style="color:#f92672">]]&lt;/span>; &lt;span style="color:#66d9ef">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo &lt;span style="color:#e6db74">&amp;#34;String is not empty&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fi&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

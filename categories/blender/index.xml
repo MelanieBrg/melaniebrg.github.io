@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blender on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/blender/</link><description>Recent content in Blender on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 28 Sep 2023 08:06:25 +0600</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Blender project : My guitar in 3D !</title><link>https://melaniebrg.github.io/posts/cg/blender-project/</link><pubDate>Thu, 28 Sep 2023 08:06:25 +0600</pubDate><guid>https://melaniebrg.github.io/posts/cg/blender-project/</guid><description>After a 9-hour introductory class to Blender, I took on the challenge of creating a 3D model of my Taylor 510ce guitar. In this article, I&amp;rsquo;ll walk you through the steps I followed to bring this project to life.
-Gathering Reference image To start, I began by capturing reference photos of my guitar from both side and front angles. I then removed the background of these images using Photoshop and put them as background images on x and y axis in Blender.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blender on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/blender/</link><description>Recent content in Blender on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 28 Sep 2023 08:06:25 +0600</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Blender project : My guitar in 3D !</title><link>https://melaniebrg.github.io/posts/cg/blender-project/</link><pubDate>Thu, 28 Sep 2023 08:06:25 +0600</pubDate><guid>https://melaniebrg.github.io/posts/cg/blender-project/</guid><description>&lt;p>After a 9-hour introductory class to Blender, I took on the challenge of creating a 3D model of my Taylor 510ce guitar. In this article, I&amp;rsquo;ll walk you through the steps I followed to bring this project to life.&lt;/p>
+&lt;p>&lt;img src="https://melaniebrg.github.io/posts/cg/blender-project/taylor_guitar.png" alt="Rendered image">&lt;/p>
+&lt;h4 id="gathering-reference-image">Gathering Reference image&lt;/h4>
+&lt;p>To start, I began by capturing reference photos of my guitar from both side and front angles.
+&lt;div class="row">
+&lt;div class="col col-sm-12 col-lg-6">
+&lt;img src="https://melaniebrg.github.io/posts/cg/blender-project/face_guitar.png" alt="face" height="500">
+&lt;/div>
+&lt;div class="col col-sm-12 col-lg-6">
+&lt;img src="https://melaniebrg.github.io/posts/cg/blender-project/side_guitar.png" alt="side" height="500">
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;p>I then removed the background of these images using Photoshop and put them as background images on x and y axis in Blender.&lt;/p></description></item></channel></rss>

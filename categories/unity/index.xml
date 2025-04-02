@@ -1,7 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unity on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/unity/</link><description>Recent content in Unity on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/unity/index.xml" rel="self" type="application/rss+xml"/><item><title>Escape Game in VR</title><link>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</guid><description>Discover our virtual reality (VR) escape game, crafted by Mélanie Brégou and Pauline Spinga. Inspired by fantastic universes and Unity Store&amp;rsquo;s Escape Room assets, we have developed original enigmas: from recreating melodies to assembling puzzles, all to unravel clues for escaping our magical-themed house.
-Set Up To begin our VR game development journey, we meticulously set up our project environment in Unity. Here&amp;rsquo;s a step-by-step guide on how we initiated the project:</description></item><item><title>Snow sleigh game on Hololens2</title><link>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</guid><description>Introducing our AR game circuit developed using Unity3D and MRTK3 for HoloLens 2. This project was brought to life through a collaborative effort between myself and Pauline Spinga.
-Here are the key steps of the project:
-Design In designing the circuit within a ski station environment, we sourced various models from free3D, turbosquid, and sketchfab websites. Additionally, we crafted a custom panel featuring our school logo. All elements were assembled in Blender, with additional snow textures for ambiance.</description></item><item><title>Tap to Place App</title><link>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</guid><description>In the context of our AR course at Institut Polytechnique de Paris, we were asked to develop a mobile application with AR Foundation in Unity to place object on the ground by taping its desired place on the screen.
-Your browser does not support the video tag. Here are the different steps of the project :
-Unity settings In order to make the application work on my Iphone I tried several Unity versions but the one which worked was the 2022.</description></item><item><title>3D platform game Unity</title><link>https://melaniebrg.github.io/posts/cg/unity-project/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/cg/unity-project/</guid><description>Introduction After a 12-hour class at the Institut Polytechnique de Paris, where we explored the fundamentals of Unity, Pauline Spinga and I embarked on a creative project to model and develop a music-themed platform game named &amp;ldquo;Virtuoso&amp;rdquo;. In this game, players step into the shoes of Vivaldi, a character who has lost his piano and guitar and must embark on a journey through the changing seasons to recover his instruments while collecting musical notes along the way.</description></item><item><title>Illustrations on image encryption and steganography Lab</title><link>https://melaniebrg.github.io/posts/dcp/encryption-lab/</link><pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/encryption-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 06/10/2023 Objective : delve into image encryption and steganography, exploring classical ciphers and digital techniques.
-Table of Contents CAESAR cipher Simple substitution cipher Simple transposition cipher LSB (lowest significant bit) steganography Image compression in JPG Image compression in PNG LSB with 2 significant bit from matplotlib import image import matplotlib.pyplot as plt import numpy as np import random from PIL import Image Firstly, let&amp;rsquo;s display the images used for this lab.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unity on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/unity/</link><description>Recent content in Unity on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/unity/index.xml" rel="self" type="application/rss+xml"/><item><title>Escape Game in VR</title><link>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/escape-vr/</guid><description>&lt;p>Discover our virtual reality (VR) escape game, crafted by Mélanie Brégou and Pauline Spinga.
+Inspired by fantastic universes and Unity Store&amp;rsquo;s Escape Room assets, we have developed original enigmas: from recreating melodies to assembling puzzles, all to unravel clues for escaping our magical-themed house.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Up3RjfBAd6I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="set-up">Set Up&lt;/h2>
+&lt;p>To begin our VR game development journey, we meticulously set up our project environment in Unity. Here&amp;rsquo;s a step-by-step guide on how we initiated the project:&lt;/p></description></item><item><title>Snow sleigh game on Hololens2</title><link>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/sleigh-ar/</guid><description>&lt;p>Introducing our AR game circuit developed using Unity3D and MRTK3 for HoloLens 2. This project was brought to life through a collaborative effort between myself and Pauline Spinga.&lt;/p>
+&lt;p>Here are the key steps of the project:&lt;/p>
+&lt;h3 id="design">Design&lt;/h3>
+&lt;p>In designing the circuit within a ski station environment, we sourced various models from free3D, turbosquid, and sketchfab websites. Additionally, we crafted a custom panel featuring our school logo. All elements were assembled in Blender, with additional snow textures for ambiance.&lt;/p></description></item><item><title>Tap to Place App</title><link>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/ar-vr/tap-to-place/</guid><description>&lt;p>In the context of our AR course at Institut Polytechnique de Paris, we were asked to develop a mobile application with AR Foundation in Unity to place object on the ground by taping its desired place on the screen.&lt;/p>
+&lt;video width="640" height="360" controls>
+&lt;source src="tap-to-place.mov" type="video/quicktime">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;p>Here are the different steps of the project :&lt;/p>
+&lt;h4 id="unity-settings">Unity settings&lt;/h4>
+&lt;p>In order to make the application work on my Iphone I tried several Unity versions but the one which worked was the 2022.3.10f1.
+Then create a new project with AR Mobile Core template&lt;/p></description></item><item><title>3D platform game Unity</title><link>https://melaniebrg.github.io/posts/cg/unity-project/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/cg/unity-project/</guid><description>&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>After a 12-hour class at the Institut Polytechnique de Paris, where we explored the fundamentals of Unity, Pauline Spinga and I embarked on a creative project to model and develop a &lt;strong>music-themed platform game named &amp;ldquo;Virtuoso&amp;rdquo;&lt;/strong>. In this game, players step into the shoes of Vivaldi, a character who has lost his piano and guitar and must embark on a journey through the changing seasons to recover his instruments while collecting musical notes along the way.&lt;/p></description></item><item><title>Illustrations on image encryption and steganography Lab</title><link>https://melaniebrg.github.io/posts/dcp/encryption-lab/</link><pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/encryption-lab/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Course&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Mélanie Brégou&lt;/td>
+&lt;td>Digital content protection&lt;/td>
+&lt;td>06/10/2023&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Objective :&lt;/strong> delve into image encryption and steganography, exploring classical ciphers and digital techniques.&lt;/p>
+&lt;h3 id="table-of-contents">Table of Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#caesar-cypher-applied-to-images">CAESAR cipher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#simple-substitution-cipher-applied-to-images">Simple substitution cipher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#simple-transposition-cipher-applied-to-images">Simple transposition cipher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lsb-lowest-significant-bit-steganography">LSB (lowest significant bit) steganography&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#image-compression-in-jpg">Image compression in JPG&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#image-compression-in-png">Image compression in PNG&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lsb-with-2-significant-bit">LSB with 2 significant bit&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> matplotlib &lt;span style="color:#f92672">import&lt;/span> image
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> matplotlib.pyplot &lt;span style="color:#66d9ef">as&lt;/span> plt
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> numpy &lt;span style="color:#66d9ef">as&lt;/span> np
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> random
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> PIL &lt;span style="color:#f92672">import&lt;/span> Image
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Firstly, let&amp;rsquo;s display the images used for this lab.&lt;/p></description></item></channel></rss>

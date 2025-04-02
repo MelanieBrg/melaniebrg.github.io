@@ -1,3 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Protection on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/protection/</link><description>Recent content in Protection on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/protection/index.xml" rel="self" type="application/rss+xml"/><item><title>Blockchain Application in Royalty Management for Digital Content Protection</title><link>https://melaniebrg.github.io/posts/dcp/blockchain-project/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/blockchain-project/</guid><description>In collaboration with Kanita Loisy and Pauline Spinga, I delved into a project focusing on the application of blockchain technology in royalty management for the course &amp;ldquo;Digital Content Protection&amp;rdquo; . As the digitization of resources continues to proliferate, the need for robust protection mechanisms has become increasingly apparent. Our project aimed to explore how blockchain could revolutionize the management of intellectual property rights, particularly in the realm of visual content.</description></item><item><title>Spread Spectrum Watermarking Lab</title><link>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 27/10/2023 Objective : Implement a spread spectrum watermarking method, with a focus on utilizing off-the-shelf random number generators, understanding the principles of uniform and Gaussian distributed generators, exploring correlation functions, and applying these concepts towards CDMA-based watermarking.
-Table of Contents Off-the-Shelf Random Number Generators Principles Uniform Distributed Generator Gaussian Distributed Generator Correlation Functions Graphical Representation and Properties Temporal Autocorrelation Function Cross-Correlation Function Towards CDMA Study the robustness against noise addition CDMA-Based Watermarking Off-the-Shelf Random Number Generators Principles import matplotlib.</description></item><item><title>2D Image filtering Lab</title><link>https://melaniebrg.github.io/posts/dcp/filtering-lab/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/filtering-lab/</guid><description>Name Course Date Mélanie Brégou Digital content protection 13/10/2023 Objective : relate the transform representation and its visual impact
-Table of Contents Compute the 2D-DCT for the images Low pass filtering High pass filtering Illustrating how the spatial DCT frequencies are related the visual content Compute the 2D-DCT for the images The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Protection on Mélanie Brégou</title><link>https://melaniebrg.github.io/categories/protection/</link><description>Recent content in Protection on Mélanie Brégou</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://melaniebrg.github.io/categories/protection/index.xml" rel="self" type="application/rss+xml"/><item><title>Blockchain Application in Royalty Management for Digital Content Protection</title><link>https://melaniebrg.github.io/posts/dcp/blockchain-project/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/blockchain-project/</guid><description>&lt;p>In collaboration with Kanita Loisy and Pauline Spinga, I delved into a project focusing on the application of blockchain technology in royalty management for the course &amp;ldquo;Digital Content Protection&amp;rdquo; . As the digitization of resources continues to proliferate, the need for robust protection mechanisms has become increasingly apparent. Our project aimed to explore how blockchain could revolutionize the management of intellectual property rights, particularly in the realm of visual content.&lt;/p></description></item><item><title>Spread Spectrum Watermarking Lab</title><link>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/watermarking-lab/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Course&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Mélanie Brégou&lt;/td>
+&lt;td>Digital content protection&lt;/td>
+&lt;td>27/10/2023&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Objective :&lt;/strong> Implement a spread spectrum watermarking method, with a focus on utilizing off-the-shelf random number generators, understanding the principles of uniform and Gaussian distributed generators, exploring correlation functions, and applying these concepts towards CDMA-based watermarking.&lt;/p>
+&lt;h3 id="table-of-contents">Table of Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#off-the-shelf-random-number-generators">Off-the-Shelf Random Number Generators&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#principles">Principles&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#uniform-distributed-generators">Uniform Distributed Generator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="###Gaussian-Distributed-Generators">Gaussian Distributed Generator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#correlation-functions">Correlation Functions&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#graphical-representation-and-properties">Graphical Representation and Properties&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#temporal-autocorrelation-function">Temporal Autocorrelation Function&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cross-correlation-function">Cross-Correlation Function&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#towards-cdma">Towards CDMA&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#study-the-robustness-against-noise-addition">Study the robustness against noise addition&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#cdma-based-watermarking">CDMA-Based Watermarking&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="off-the-shelf-random-number-generators">Off-the-Shelf Random Number Generators&lt;/h2>
+&lt;h3 id="principles">Principles&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> matplotlib.pyplot &lt;span style="color:#66d9ef">as&lt;/span> plt
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> random
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> numpy &lt;span style="color:#66d9ef">as&lt;/span> np
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>We define the LCG (linear congruential generator) function : xn = (a * xn-1 + b) mod c,&lt;/p></description></item><item><title>2D Image filtering Lab</title><link>https://melaniebrg.github.io/posts/dcp/filtering-lab/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>https://melaniebrg.github.io/posts/dcp/filtering-lab/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Course&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Mélanie Brégou&lt;/td>
+&lt;td>Digital content protection&lt;/td>
+&lt;td>13/10/2023&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Objective :&lt;/strong> relate the transform representation and its visual impact&lt;/p>
+&lt;h3 id="table-of-contents">Table of Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#compute-the-2d-dct-for-the-images">Compute the 2D-DCT for the images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#low-pass-filtering">Low pass filtering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#high-pass-filtering">High pass filtering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#illustrating-how-the-spatial-dct-frequencies-are-related-the-visual-content">Illustrating how the spatial DCT frequencies are related the visual content&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="compute-the-2d-dct-for-the-images">Compute the 2D-DCT for the images&lt;/h3>
+&lt;p>The Two-Dimensional Discrete Cosine Transform is a mathematical operation applied in image processing to represent images in a frequency domain. This transformation is a pivotal tool for analyzing the spatial characteristics of images, allowing the separation of high-frequency components (edges or fine details) from low-frequency components (smooth transitions and gradual changes).&lt;/p></description></item></channel></rss>
